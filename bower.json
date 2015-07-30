@@ -1,0 +1,11 @@
+{
+  "name": "personal portfolio",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "latest",
+    "angular-material": "latest",
+    "angular-aria": "latest",
+    "angular-animate": "latest",
+    "angular-ui-router": "latest"
+  }
+}
