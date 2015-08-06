@@ -5,6 +5,8 @@ var app = angular.module( 'MainApp',
     'ui.router',
     'wpNav',
     'wcSocket',
+    'wpCurriculum',
+    'wcFooter',
     'wpSnap']
 );
 

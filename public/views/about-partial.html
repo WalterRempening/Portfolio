@@ -1,5 +1,5 @@
 <wp-navigation></wp-navigation>
-<div class="container" layout="column">
+<div class="container" layout="column" ng-controller="CvController">
   <div class="intro" layout="row">
     <div class="profile" flex="33"></div>
     <div class="bio" flex="66">
@@ -39,18 +39,19 @@
     </div>
   </div>
   <div class="cv" layout="column">
-    <h1>Education</h1>
+    <div ng-repeat="category in content.keys">
+      <h1>{{category}}</h1>
 
-    <div layout="row">
-      <span class="year">04.2013 - 07.2015</span><span>LMU München <br/>
-      Human Computer Interaction, Master of Science</span>
+      <div layout="row" ng-repeat="step in content[category]">
+        <span class="year" flex='20'>{{step.time}}</span>
+        <span flex="55">{{step.titel}}
+        <br/>
+        {{step.content}}</span>
+      </div>
+
     </div>
-    <div layout="row">
-      <span class="year">04.2013 - 07.2015</span><span>LMU München <br/>
-      Human Computer Interaction, Master of Science</span>
-    </div>
-    
   </div>
 
-
 </div>
+
+<wp-footer></wp-footer>

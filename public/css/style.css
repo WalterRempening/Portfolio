@@ -55,7 +55,6 @@ nav ul li a:hover {
 }
 .container {
   width: 70%;
-  min-height: 100%;
   margin: 0 auto;
 }
 .container .home-logo {
@@ -107,10 +106,21 @@ nav ul li a:hover {
 .container .cv div {
   padding: 5px 20px;
 }
+.container .cv span {
+  margin: 5px 0px 0px 0px;
+}
 .container .cv .year {
   font-style: italic;
   font-weight: 800;
 }
-.container .cv span {
-  margin: 5px 30px 0px 0px;
+.footer {
+  height: 70px;
+  width: 100%;
+  margin-top: 50px;
+}
+.footer span {
+  font-size: 0.9em;
+  text-align: center;
+  display: block;
+  margin: 40px auto 0px;
 }
