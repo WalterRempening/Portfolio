@@ -6,6 +6,7 @@
     "angular-material": "latest",
     "angular-aria": "latest",
     "angular-animate": "latest",
-    "angular-ui-router": "latest"
+    "angular-ui-router": "latest",
+    "snap.svg" : "latest"
   }
 }

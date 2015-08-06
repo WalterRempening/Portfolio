@@ -7,12 +7,11 @@ var bodyParser = require( 'body-parser' );
 var csrf = require( 'csurf' );
 var app = express();
 
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use( logger( 'dev' ) );
 app.use( bodyParser.json() );
 app.use( bodyParser.urlencoded( { extended: false } ) );
 app.use( cookieParser() );
-app.use( require( 'stylus' ).middleware( path.join( __dirname, 'public' ) ) );
 app.use( express.static( path.join( __dirname, 'public' ) ) );
 
 app.get( '*', function ( req, res ) {

@@ -2,16 +2,21 @@
 var app = angular.module( 'MainApp',
   [ 'ngAnimate',
     'ngMaterial',
-    'ui.router' ]
+    'ui.router',
+    'wpNav',
+    'wcSocket',
+    'wpSnap']
 );
 
 app.config(
   [ '$stateProvider',
     '$urlRouterProvider',
     '$mdThemingProvider',
+    '$locationProvider',
     function ( $stateProvider,
                $urlRouterProvider,
-               $mdThemingProvider ) {
+               $mdThemingProvider,
+               $locationProvider) {
 
       // Setup angular material theme
       $mdThemingProvider.theme( 'default' )
@@ -27,9 +32,22 @@ app.config(
         }
       );
 
+      $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+      });
+
       $stateProvider.state( 'home', {
         url: '/',
         templateUrl: '../../views/home-page.html'
-      } );
+      } )
+        .state('works', {
+          url:'/works',
+          templateUrl:'../../views/works-partial.html'
+        })
+        .state('about', {
+          url:'/about',
+          templateUrl:'../../views/about-partial.html'
+        });
 
     } ] );
