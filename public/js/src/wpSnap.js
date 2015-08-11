@@ -23,8 +23,8 @@ app.directive( 'ngSvg', function ( Snap ) {
     link: function ( scope, el, attrs ) {
       scope.el = Snap( el[ 0 ] );
       scope.el.attr( {
-        'fill': '#207BFF',
-        'stroke': '#00FF00',
+        'fill': '#000000',
+        'stroke': '#FFFFFF',
         'strokeWidth': 0.0
       } );
     },
