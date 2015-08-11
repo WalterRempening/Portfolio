@@ -43,8 +43,8 @@ app.config(
         url: '/',
         templateUrl: '../../views/home-page.html'
       } )
-        .state('works', {
-          url:'/works',
+        .state('portfolio', {
+          url:'/portfolio',
           templateUrl:'../../views/works-partial.html'
         })
         .state('about', {
