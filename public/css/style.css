@@ -45,6 +45,7 @@ nav {
 nav .logo {
   width: 200px;
   height: 200px;
+  background: url("../img/Logo-small.svg") no-repeat;
 }
 nav .logo a {
   display: block;
@@ -52,7 +53,7 @@ nav .logo a {
   height: 100%;
 }
 nav ul li {
-  margin: 75px 50px;
+  margin: 53px 50px;
   text-transform: uppercase;
   font-size: 1.4em;
   font-weight: 800;
@@ -65,7 +66,7 @@ nav ul li a:visited {
   color: #fff;
 }
 nav ul li a:hover {
-  color: #b2ae1a;
+  color: #ccc714;
 }
 .home-bg {
   height: 65%;

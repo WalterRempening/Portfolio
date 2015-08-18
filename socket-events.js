@@ -1,4 +1,4 @@
-var cv = require( './Content/curriculum.json' );
+var cv = require( './content/curriculum.json' );
 
 module.exports = function ( io ) {
 

@@ -6,8 +6,8 @@ var app = angular.module( 'MainApp',
     'wpNav',
     'wcSocket',
     'wpCurriculum',
-    'wcFooter',
-    'wpSnap']
+    'wpGsap',
+    'wcFooter']
 );
 
 app.config(
