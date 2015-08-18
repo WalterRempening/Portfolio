@@ -3,11 +3,11 @@
 html {
   min-height: 100%;
   position: relative;
-  background-color: #c1d9e9;
+  background-color: #fff;
 }
 body {
   font-family: Futura, 'Roboto', sans-serif;
-  background-color: #c1d9e9;
+  background-color: #fff;
 }
 a {
   text-decoration: none;
@@ -20,13 +20,27 @@ ul {
   height: auto !important;
 }
 md-content {
-  background-color: #c1d9e9;
   overflow: hidden;
+}
+md-content.header-bg {
+  height: 250px;
+  background-color: #117bb2;
+  -webkit-transform: skew(0deg, -5deg);
+  -moz-transform: skew(0deg, -5deg);
+  -o-transform: skew(0deg, -5deg);
+  -ms-transform: skew(0deg, -5deg);
+  transform: skew(0deg, -5deg);
+  margin: -65px 0px 100px;
 }
 nav {
   width: 70%;
   height: 200px;
-  margin: 0 auto;
+  margin: 75px auto;
+  -webkit-transform: skew(0deg, 5deg);
+  -moz-transform: skew(0deg, 5deg);
+  -o-transform: skew(0deg, 5deg);
+  -ms-transform: skew(0deg, 5deg);
+  transform: skew(0deg, 5deg);
 }
 nav .logo {
   width: 200px;
@@ -38,58 +52,60 @@ nav .logo a {
   height: 100%;
 }
 nav ul li {
-  margin: 50px 50px;
+  margin: 75px 50px;
   text-transform: uppercase;
   font-size: 1.4em;
   font-weight: 800;
-  color: rgba(0,0,0,0) 0;
+  color: #fff;
 }
 nav ul li a {
-  color: rgba(0,0,0,0) 0;
+  color: #fff;
 }
 nav ul li a:visited {
-  color: #000;
+  color: #fff;
 }
 nav ul li a:hover {
-  color: #fff;
+  color: #b2ae1a;
+}
+.home-bg {
+  height: 65%;
+  width: 100%;
+  background-color: #117bb2;
+  z-index: 0;
+  position: absolute;
+  -webkit-transform: skew(0deg, -10deg);
+  -moz-transform: skew(0deg, -10deg);
+  -o-transform: skew(0deg, -10deg);
+  -ms-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  margin: -128px 0px 0px;
 }
 .container {
   width: 70%;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 .container .home-logo {
   width: 80%;
   margin: 60px auto 0px;
-  height: 441px;
+  height: 550px;
   display: block;
 }
 .container .links {
   width: 50%;
   margin: 0 auto;
 }
-.container .links .title {
-  width: 89%;
-  background-color: #000;
-  color: #fff;
-  height: 50px;
-  font-size: 2em;
-  text-align: center;
-  margin: 10px auto;
-  padding: 8px 0px 3px;
-  font-style: italic;
-}
 .container .links ul {
   padding: 0px;
 }
 .container .links ul li {
-  font-size: 2.4em;
+  font-size: 1.4em;
   text-align: center;
-  width: 72%;
-  margin: 0 auto;
+  margin: 3px auto;
 }
 .container .links ul a {
   color: #000;
-  margin: 5px 30px 0px;
   font-family: 'Futura';
   font-weight: 100;
   text-transform: uppercase;

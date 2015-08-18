@@ -23,7 +23,7 @@ app.directive( 'ngSvg', function ( Snap ) {
     link: function ( scope, el, attrs ) {
       scope.el = Snap( el[ 0 ] );
       scope.el.attr( {
-        'fill': '#000000',
+        'fill': '#FFFFFF',
         'stroke': '#FFFFFF',
         'strokeWidth': 0.0
       } );
@@ -50,8 +50,10 @@ app.directive( 'ngSvgHome', function ( Snap ) {
       scope.el.attr( {
         'fill': '#000000',
         'stroke': '#FFFFFF',
-        'strokeWidth': 0.0
+        'strokeWidth': 0.0,
+        'scale': 2.0
       } );
+
     },
     template: '<svg height="100%" width="100%"></svg>'
   };

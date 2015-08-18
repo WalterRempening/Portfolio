@@ -7,6 +7,6 @@
     "angular-aria": "latest",
     "angular-animate": "latest",
     "angular-ui-router": "latest",
-    "snap.svg" : "latest"
+    "gsap" : "latest"
   }
 }

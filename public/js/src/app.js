@@ -50,6 +50,10 @@ app.config(
         .state('about', {
           url:'/about',
           templateUrl:'../../views/about-partial.html'
+        })
+        .state('contact', {
+          url:'/contact',
+          templateUrl:'../../views/contact-partial.html'
         });
 
     } ] );
