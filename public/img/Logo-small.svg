@@ -5,7 +5,7 @@
 <font horiz-adv-x="1000">
 <!-- Copyright (c) Typographer Mediengestaltung, 2002. All rights reserved. Schlichte Gotisch, geschaffen von Emil Meyer in den Jahren 1933-1935 fuer die Schriftgiesserei D. Stempel AG (Frankfurt/M).  -->
 <!-- Copyright: Copyright 2015 Adobe System Incorporated. All rights reserved. -->
-<font-face font-family="TannenbergFett" units-per-em="1000" underline-position="-200" underline-thickness="20"/>
+<font-face font-family="'Tannenberg-Fett'" units-per-em="1000" underline-position="-200" underline-thickness="20"/>
 <glyph unicode="D" horiz-adv-x="597" d="M563,110l-186,-146l-385,63l90,102l-1,392l68,36l-221,19l114,157l521,-48M247,515l0,-360l150,-27l0,405l-108,12z"/>
 <glyph unicode="R" horiz-adv-x="681" d="M735,116l-159,-153l-132,39l0,289l-165,31l0,-342l-166,0l0,558l-173,29l133,155l206,-38l0,-43l94,81l305,-94l-192,-192l124,-25l0,-274M279,503l0,-148l165,165l-107,37z"/>
 <glyph unicode="W" horiz-adv-x="830" d="M788,117l-164,-156l-208,75l-61,-74l-345,72l80,99l0,407l-145,30l127,146l184,-54l0,-25l67,78l200,-55l0,-30l86,86l179,-56M256,497l0,-343l101,-23l0,406l-54,18M523,496l0,-329l99,-32l0,402l-48,17z"/>
@@ -26,8 +26,10 @@
 </g>
 <g id="Layer_1">
 	<rect x="6.5" y="13" fill="none" width="218.5" height="164"/>
-	<text transform="matrix(1 0 0 1 6.5 48.4268)"><tspan x="0" y="0" fill="#052533" font-family="'TannenbergFett'" font-size="49px">Walter</tspan><tspan x="0" y="60.8" fill="#052533" font-family="'TannenbergFett'" font-size="49px">Rempening</tspan><tspan x="0" y="121.6" fill="#052533" font-family="'TannenbergFett'" font-size="49px">Diaz</tspan></text>
+	<text transform="matrix(1 0 0 1 6.5 48.4268)"><tspan x="0" y="0" fill="#052533" font-family="'Tannenberg-Fett'" font-size="49px">Walter</tspan><tspan x="0" y="60.8" fill="#052533" font-family="'Tannenberg-Fett'"
+	font-size="49px">Rempening</tspan><tspan x="0" y="121.6" fill="#052533" font-family="'Tannenberg-Fett'" font-size="49px">Diaz</tspan></text>
 	<rect x="4" y="10.5" fill="none" width="221" height="169.5"/>
-	<text transform="matrix(1 0 0 1 4 45.9268)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'TannenbergFett'" font-size="49px">Walter</tspan><tspan x="0" y="60.8" fill="#FFFFFF" font-family="'TannenbergFett'" font-size="49px">Rempening</tspan><tspan x="0" y="121.6" fill="#FFFFFF" font-family="'TannenbergFett'" font-size="49px">Diaz</tspan></text>
+	<text transform="matrix(1 0 0 1 4 45.9268)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Tannenberg-Fett'" font-size="49px">Walter</tspan><tspan x="0" y="60.8" fill="#FFFFFF" font-family="'Tannenberg-Fett'"
+	font-size="49px">Rempening</tspan><tspan x="0" y="121.6" fill="#FFFFFF" font-family="'Tannenberg-Fett'" font-size="49px">Diaz</tspan></text>
 </g>
 </svg>

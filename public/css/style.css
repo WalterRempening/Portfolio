@@ -1,5 +1,11 @@
 @import '../js/libs/angular-material/angular-material.min.css';
 @import url("http://fonts.googleapis.com/css?family=Roboto:400,100,900italic,900,100italic");
+@font-face {
+  font-family: 'Tannenberg-Fett';
+  src: url("../fonts/Tannenberg-Fett.ttf.woff") format('woff'), url("../fonts/Tannenberg-Fett.ttf.svg#Tannenberg-Fett") format('svg'), url("../fonts/Tannenberg-Fett.ttf.eot"), url("../fonts/Tannenberg-Fett.ttf.eot?#iefix") format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 html {
   min-height: 100%;
   position: relative;
@@ -83,9 +89,27 @@ nav ul li a:hover {
 }
 .container {
   width: 70%;
+  min-height: 100%;
   margin: 0 auto;
   position: relative;
   z-index: 1;
+}
+.container .slogan {
+  font-size: 3em;
+  text-align: center;
+  font-style: italic;
+  font-weight: 800;
+  width: 70%;
+  margin: 0 auto;
+}
+.container .slogan span {
+  display: block;
+  border: 3px solid #ccc714;
+  width: 300px;
+  margin: 40px auto;
+}
+.container .tile {
+  background-color: #ff4c59;
 }
 .container .home-logo {
   width: 80%;

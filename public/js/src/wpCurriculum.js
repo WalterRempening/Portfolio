@@ -9,7 +9,6 @@ app.controller( 'CvController', [ '$scope', 'SocketFactory',function ($scope, So
 
   SocketFactory.on( 'receiveCv', function ( data ) {
     $scope.content = data;
-    console.log( data );
   } );
 
 } ] );

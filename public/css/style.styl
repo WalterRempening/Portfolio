@@ -12,6 +12,16 @@ $wp-dark-blue = #117BB2
 $wp-ochre = #CCC714
 $wp-dark-ochre = #B2AE1A
 
+@font-face {
+  font-family: 'Tannenberg-Fett';
+  src:url('../fonts/Tannenberg-Fett.ttf.woff') format('woff'),
+  url('../fonts/Tannenberg-Fett.ttf.svg#Tannenberg-Fett') format('svg'),
+  url('../fonts/Tannenberg-Fett.ttf.eot'),
+  url('../fonts/Tannenberg-Fett.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html
   min-height 100%
   position relative
@@ -84,10 +94,27 @@ nav
 
 .container
   width 70%
-  //min-height 100%
+  min-height 100%
   margin 0 auto
   position relative
   z-index 1
+
+  .slogan
+    font-size 3em
+    text-align center
+    font-style italic
+    font-weight 800
+    width 70%
+    margin 0 auto
+
+    span
+      display block
+      border 3px solid $wp-ochre
+      width 300px
+      margin 40px auto
+
+  .tile
+    background-color $wp-red
 
   .home-logo
     width 80%
