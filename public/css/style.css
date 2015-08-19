@@ -51,7 +51,6 @@ nav {
 nav .logo {
   width: 200px;
   height: 200px;
-  background: url("../img/Logo-small.svg") no-repeat;
 }
 nav .logo a {
   display: block;
