@@ -1,15 +1,20 @@
 <wp-navigation></wp-navigation>
-<div class="container">
+<div class="container" ng-controller="PortfolioController">
   <div class="slogan">
     <span></span>
     "A really deep sentence resuming my body of work and work ethics, but like
     for real"
     <span></span>
   </div>
-  <div class="grid">
-    <div class="tile">
-
-    </div>
-  </div>
+  <section class="grid">
+    <wp-tile ng-repeat="work in portfolio.works"
+             wtitel="{{work.titel}}"
+             wdescription="{{work.description}}"
+             wlink="{{work.wlink}}"
+             wimage="img/sculptures.jpg"
+             wplane-color="{{work.pColor}}"
+      ng-mouseenter="play()" ng-mouseleave="reverse()">
+    </wp-tile>
+  </section>
 </div>
 <wp-footer></wp-footer>

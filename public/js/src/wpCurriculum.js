@@ -1,14 +1,16 @@
-'use strict';
-var app = angular.module( 'wpCurriculum', [] );
+(function ( angular ) {
+  'use strict';
+  angular.module( 'wpCurriculum', [] )
 
-app.controller( 'CvController', [ '$scope', 'SocketFactory',function ($scope, SocketFactory) {
+    .controller( 'CvController',
+    [ '$scope', 'SocketFactory', function ( $scope, SocketFactory ) {
 
-  SocketFactory.emit('getCv', 'en');
+      $scope.content = {};
+      SocketFactory.emit( 'getCv', 'en' );
 
-  $scope.content = {};
+      SocketFactory.on( 'receiveCv', function ( data ) {
+        $scope.content = data;
+      } );
 
-  SocketFactory.on( 'receiveCv', function ( data ) {
-    $scope.content = data;
-  } );
-
-} ] );
+    } ] );
+})( angular );

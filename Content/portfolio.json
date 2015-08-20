@@ -1,0 +1,24 @@
+{
+  "works": [
+    {
+      "titel": "Activity Sculpture Configurator",
+      "description": "3D Datavisualization configurator for activity driven sculptures"
+    },
+    {
+      "titel": "ROLIC, Rolable Induction Cooking",
+      "description": "Physical prototyping of kitchen workspaces of the future"
+    },
+    {
+      "titel": "GLOSUS",
+      "description": "sustainability platform for small- and mid-sized companies"
+    },
+    {
+      "titel": "Drivedeck Sport",
+      "description": "Your driving analytics companion"
+    },
+    {
+      "titel": "Creative Coding",
+      "description": "Generative and procedural pieces"
+    }
+  ]
+}
