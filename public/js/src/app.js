@@ -45,15 +45,18 @@ app.config(
         url: '/',
         templateUrl: '../../views/home-page.html'
       } )
-        .state('portfolio', {
+        .state('content' , {
+          templateUrl: '../../views/base-page.html'
+        })
+        .state('content.portfolio', {
           url:'/portfolio',
           templateUrl:'../../views/works-partial.html'
         })
-        .state('about', {
+        .state('content.about', {
           url:'/about',
           templateUrl:'../../views/about-partial.html'
         })
-        .state('contact', {
+        .state('content.contact', {
           url:'/contact',
           templateUrl:'../../views/contact-partial.html'
         });
