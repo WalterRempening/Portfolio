@@ -8,7 +8,9 @@ $wp-bg = #ffffff
 $wp-red = #FF4C59
 $wp-dark-red = #8C2A36
 $wp-blue = #32B8FF
+$wp-blue-h1 = #BAE3F9
 $wp-dark-blue = #117BB2
+$wp-dark-blue-h1 = #074869
 $wp-ochre = #CCC714
 $wp-dark-ochre = #B2AE1A
 
@@ -75,11 +77,25 @@ nav
       color $wp-bg
   
       a
-        color $wp-bg
-        &:visited
-          color $wp-bg
+        color $wp-blue-h1
+        margin-bottom 5px
+        display inline-block
+        padding-bottom 10px
+        transition color 0.5s
+        font-weight 100
+
         &:hover
-          color $wp-ochre
+          color #000000
+          transition color 0.5s
+
+      .active
+        color $wp-bg
+        border-bottom 1px solid $wp-red
+        transition border-width 0.7s, color 0.5s
+
+      .idle
+        color $wp-blue-h1
+
 
 .home-bg
   height 65%
@@ -212,7 +228,7 @@ nav
 
           h2
             font-size 2.4em
-            margin 15px 0 20px 0
+            margin 15px 0 5px 0
             color $wp-bg
             text-transform uppercase
             letter-spacing 1px
@@ -223,12 +239,13 @@ nav
           h2, p
             transform translateY(50px)
             padding-left 30px
+          p
+            margin-top 5px
+            font-size 1.2em
 
-.grid figcaption,
-.grid figcaption h2,
-.grid figcaption p,
-.grid figure button
-  backface-visibility: hidden
+  figcaption, h2, p,
+  figure button
+    backface-visibility: hidden
 
 .grid a:hover figure img {
   opacity: 1;
@@ -247,8 +264,6 @@ nav
   opacity: 1;
   transform: translateY(-50%) translateX(-50%) scale(1);
 }
-
-
 
 .footer
   height 70px

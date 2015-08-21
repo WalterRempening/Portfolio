@@ -13,7 +13,7 @@
       return {
         restrict: 'E',
         replace: 'true',
-        templateUrl: '../../views/footer-partial.html',
+        templateUrl: '../../../views/core/footer-partial.html',
         controller: 'FooterController',
         controllerAs: 'ftrCtrl'
       };

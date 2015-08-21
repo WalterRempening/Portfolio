@@ -43,22 +43,22 @@ app.config(
 
       $stateProvider.state( 'home', {
         url: '/',
-        templateUrl: '../../views/home-page.html'
+        templateUrl: '../../views/landing/home-page.html'
       } )
         .state('content' , {
-          templateUrl: '../../views/base-page.html'
+          templateUrl: '../../views/core/base-page.html'
         })
         .state('content.portfolio', {
           url:'/portfolio',
-          templateUrl:'../../views/works-partial.html'
+          templateUrl:'../../views/pages/works-partial.html'
         })
         .state('content.about', {
           url:'/about',
-          templateUrl:'../../views/about-partial.html'
+          templateUrl:'../../views/pages/about-partial.html'
         })
         .state('content.contact', {
           url:'/contact',
-          templateUrl:'../../views/contact-partial.html'
+          templateUrl:'../../views/pages/contact-partial.html'
         });
 
     } ] );

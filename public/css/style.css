@@ -65,13 +65,36 @@ nav ul li {
   color: #fff;
 }
 nav ul li a {
-  color: #fff;
-}
-nav ul li a:visited {
-  color: #fff;
+  color: #bae3f9;
+  margin-bottom: 5px;
+  display: inline-block;
+  padding-bottom: 10px;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-weight: 100;
 }
 nav ul li a:hover {
-  color: #ccc714;
+  color: #000;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+}
+nav ul li .active {
+  color: #fff;
+  border-bottom: 1px solid #ff4c59;
+  -webkit-transition: border-width 0.7s, color 0.5s;
+  -moz-transition: border-width 0.7s, color 0.5s;
+  -o-transition: border-width 0.7s, color 0.5s;
+  -ms-transition: border-width 0.7s, color 0.5s;
+  transition: border-width 0.7s, color 0.5s;
+}
+nav ul li .idle {
+  color: #bae3f9;
 }
 .home-bg {
   height: 65%;
@@ -223,7 +246,7 @@ nav ul li a:hover {
 }
 .grid a figure figcaption h2 {
   font-size: 2.4em;
-  margin: 15px 0 20px 0;
+  margin: 15px 0 5px 0;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -248,10 +271,14 @@ nav ul li a:hover {
   transform: translateY(50px);
   padding-left: 30px;
 }
-.grid figcaption,
-.grid figcaption h2,
-.grid figcaption p,
-.grid figure button {
+.grid a figure figcaption p {
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+figcaption,
+h2,
+p,
+figure button {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;

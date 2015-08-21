@@ -1,4 +1,4 @@
-<md-content class="header-bg">
+<md-content class="header-bg" ng-controller="NavigationController">
   <nav layout="row">
     <div class="logo">
       <a ui-sref="home">
@@ -40,9 +40,9 @@
       </a>
     </div>
     <ul layout="row">
-      <li><a ui-sref=".portfolio">Portfolio</a></li>
-      <li><a ui-sref=".about">About</a></li>
-      <li><a ui-sref=".contact">Contact</a></li>
+      <li><a ui-sref=".portfolio" class="ng-class:state.port">Portfolio</a></li>
+      <li><a ui-sref=".about" class="ng-class:state.about" >About</a></li>
+      <li><a ui-sref=".contact" class="ng-class:state.contact" >Contact</a></li>
     </ul>
   </nav>
 </md-content>

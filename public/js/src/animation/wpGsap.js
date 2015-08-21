@@ -22,7 +22,7 @@
       return {
         scope: true,
         link: linker,
-        templateUrl: '../../views/home-logo.tmpl.html'
+        templateUrl: '../../../views/landing/home-logo.tmpl.html'
       };
     } );
 

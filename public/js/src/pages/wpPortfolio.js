@@ -26,8 +26,6 @@
             speed  = 330,
             easing = mina.backout;
 
-        console.log( svg );
-
         scope.s = Snap( element[0] );
         scope.path = scope.s.select( 'path' );
 
@@ -53,7 +51,7 @@
         scope: true,
         replace: true,
         link: linker,
-        templateUrl: '../../views/portfolio-tile.tmpl.html'
+        templateUrl: '../../../views/portfolio/portfolio-tile.tmpl.html'
       };
     } ] );
 
