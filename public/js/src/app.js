@@ -9,6 +9,7 @@ var app = angular.module( 'MainApp',
     'wpGsap',
     'wpSnap',
     'wpPortfolio',
+    'wpWorkDetail',
     'wcFooter']
 );
 
@@ -45,20 +46,26 @@ app.config(
         url: '/',
         templateUrl: '../../views/landing/home-page.html'
       } )
-        .state('content' , {
+        .state( 'content', {
           templateUrl: '../../views/core/base-page.html'
-        })
-        .state('content.portfolio', {
-          url:'/portfolio',
-          templateUrl:'../../views/pages/works-partial.html'
-        })
-        .state('content.about', {
-          url:'/about',
-          templateUrl:'../../views/pages/about-partial.html'
-        })
-        .state('content.contact', {
-          url:'/contact',
-          templateUrl:'../../views/pages/contact-partial.html'
-        });
+        } )
+        .state( 'content.portfolio', {
+          url: '/portfolio',
+          templateUrl: '../../views/pages/works-partial.html'
+        } )
+        .state( 'content.detail', {
+          url: '/{workTitel}-{index}',
+          templateUrl: '../../views/portfolio/portfolio-work-generic.html'
+        } )
+        .state( 'content.about', {
+          url: '/about',
+          templateUrl: '../../views/pages/about-partial.html'
+        } )
+        .state( 'content.contact', {
+          url: '/contact',
+          templateUrl: '../../views/pages/contact-partial.html'
+        } );
+
+
 
     } ] );

@@ -6,13 +6,15 @@
     <span></span>
   </div>
   <section class="grid">
-    <wp-tile ng-repeat="work in portfolio.works"
+    <wp-tile ng-repeat="work in portfolio.tiles"
              wtitel="{{work.titel}}"
              wdescription="{{work.description}}"
-             wlink="{{work.wlink}}"
+             wlink="{{work.link}}"
              wimage="img/sculptures.jpg"
-             wplane-color="{{work.pColor}}"
-      ng-mouseenter="play()" ng-mouseleave="reverse()">
+             wplane-color="{{work.color}}"
+             windex = "{{$index}}"
+             ng-mouseenter="play()"
+             ng-mouseleave="reverse()">
     </wp-tile>
   </section>
 </div>

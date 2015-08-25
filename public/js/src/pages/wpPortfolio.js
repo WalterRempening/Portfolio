@@ -11,14 +11,10 @@
         $scope.portfolio = data;
       } );
 
-
     } ] )
 
-    .directive( 'wpTile', [ 'Snap', function ( Snap ) {
+    .directive( 'wpTile', [ 'Snap', '$state', '$rootScope',function ( Snap, $state ) {
       var linker = function ( scope, element, attrs ) {
-
-        //data-path-hover="M500.5,0L0,0l0,60h500.5V0z"
-        //d="M500.5,0L0,0l0,215l500.5-81V0z"
 
         var svg    = element.find( 'svg' ),
             panel  = svg[ 0 ].childNodes[ 1 ].attributes.d.value,
@@ -26,7 +22,7 @@
             speed  = 330,
             easing = mina.backout;
 
-        scope.s = Snap( element[0] );
+        scope.s = Snap( element[ 0 ] );
         scope.path = scope.s.select( 'path' );
 
         scope.play = function () {
@@ -41,8 +37,17 @@
           titel: attrs.wtitel,
           description: attrs.wdescription,
           img: attrs.wimage,
-          link: attrs.wlink,
-          planeColor: "#FF4C59"  //attrs.wplaneColor
+          planeColor: "#FF4C59",  //attrs.wplaneColor
+          index : attrs.windex,
+          link: function () {
+            var address = attrs.wtitel.replace( /\s/g, '-' );
+            address = address.replace( /:/g, '' );
+            return address;
+          }
+        };
+
+        scope.toWork = function ( target, wIndex ) {
+          $state.transitionTo( 'content.detail', { workTitel: target, index: wIndex } );
         };
 
       };

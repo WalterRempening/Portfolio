@@ -77,7 +77,7 @@ nav ul li a {
   font-weight: 100;
 }
 nav ul li a:hover {
-  color: #000;
+  color: #fff;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
@@ -163,15 +163,22 @@ nav ul li .idle {
 .container .bio {
   font-weight: 100;
 }
+.container .cv h1 {
+  font-weight: 100;
+}
 .container .cv div {
   padding: 5px 20px;
 }
 .container .cv span {
   margin: 5px 0px 0px 0px;
+  color: #353535;
 }
 .container .cv .year {
   font-style: italic;
   font-weight: 800;
+  color: #808080;
+  text-align: right;
+  padding-right: 30px;
 }
 .grid {
   margin: 40px auto 120px;
