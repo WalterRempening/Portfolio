@@ -13,7 +13,7 @@ html {
 }
 body {
   font-family: Futura, 'Roboto', sans-serif;
-  background-color: #fff;
+  background-color: transparent;
 }
 a {
   text-decoration: none;
@@ -24,6 +24,10 @@ ul {
 .wrapper {
   min-height: 100%;
   height: auto !important;
+}
+.content {
+  background-color: #fff;
+  min-height: 100%;
 }
 md-content {
   overflow: hidden;
@@ -37,6 +41,8 @@ md-content.header-bg {
   -ms-transform: skew(0deg, -5deg);
   transform: skew(0deg, -5deg);
   margin: -65px 0px 100px;
+  position: relative;
+  z-index: 2;
 }
 nav {
   width: 70%;
@@ -114,7 +120,6 @@ nav ul li .idle {
   min-height: 100%;
   margin: 0 auto;
   position: relative;
-  z-index: 1;
 }
 .container .slogan {
   font-size: 3em;
@@ -319,16 +324,48 @@ figure button {
   -ms-transform: translateY(-50%) translateX(-50%) scale(1);
   transform: translateY(-50%) translateX(-50%) scale(1);
 }
-.footer {
-  height: 70px;
+.detail {
+  background-color: #fff;
+}
+.detail .container {
+  margin-top: 200px;
+}
+.detail .header-bg {
+  background: url("../img/sculptures.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
   width: 100%;
-  margin-top: 50px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -999;
+}
+.detail .work-titel {
+  position: absolute;
+  top: -150px;
+  font-size: 3.5em;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-shadow: 4px 4px #074869;
+}
+.detail section {
+  padding-top: 50px;
+}
+.footer {
+  height: 130px;
+  width: 100%;
+  padding-top: 50px;
+  background-color: #fff;
 }
 .footer span {
   font-size: 0.9em;
   text-align: center;
   display: block;
-  margin: 40px auto 0px;
+  margin: 0px auto;
 }
 [ui-view].ng-enter,
 [ui-view].ng-leave,

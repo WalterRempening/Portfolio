@@ -54,7 +54,7 @@ app.config(
           templateUrl: '../../views/pages/works-partial.html'
         } )
         .state( 'content.detail', {
-          url: '/{workTitel}-{index}',
+          url: '/{workTitel}&index={index}',
           templateUrl: '../../views/portfolio/portfolio-work-generic.html'
         } )
         .state( 'content.about', {
