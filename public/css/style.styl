@@ -14,6 +14,14 @@ $wp-dark-blue-h1 = #074869
 $wp-ochre = #CCC714
 $wp-dark-ochre = #B2AE1A
 
+// ------------ Mixins --------------------
+first-letter-capital()
+  text-transform uppercase
+  font-size 3.8em
+  float left
+  margin 0px 16px 10px 0px
+  line-height 50px
+
 @font-face {
   font-family: 'Tannenberg-Fett';
   src:url('../fonts/Tannenberg-Fett.ttf.woff') format('woff'),
@@ -98,8 +106,8 @@ nav
 
       .active
         color $wp-bg
-        border-bottom 1px solid $wp-red
-        transition border-width 0.7s, color 0.5s
+        border-bottom 3px solid $wp-red
+        transition color 0.5s
 
       .idle
         color $wp-blue-h1
@@ -165,6 +173,8 @@ nav
 
   .bio
     font-weight 100
+    &:first-letter
+      first-letter-capital()
 
   .cv
     h1
@@ -306,8 +316,17 @@ nav
     color $wp-bg
     text-shadow 4px 4px $wp-dark-blue-h1
 
+  section.opening
+    &:first-letter
+      first-letter-capital()
+
+
+
+
   section
     padding-top 50px
+
+
 
 .footer
   height 130px

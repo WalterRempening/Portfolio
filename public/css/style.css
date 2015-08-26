@@ -92,12 +92,12 @@ nav ul li a:hover {
 }
 nav ul li .active {
   color: #fff;
-  border-bottom: 1px solid #ff4c59;
-  -webkit-transition: border-width 0.7s, color 0.5s;
-  -moz-transition: border-width 0.7s, color 0.5s;
-  -o-transition: border-width 0.7s, color 0.5s;
-  -ms-transition: border-width 0.7s, color 0.5s;
-  transition: border-width 0.7s, color 0.5s;
+  border-bottom: 3px solid #ff4c59;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
 }
 nav ul li .idle {
   color: #bae3f9;
@@ -167,6 +167,13 @@ nav ul li .idle {
 }
 .container .bio {
   font-weight: 100;
+}
+.container .bio:first-letter {
+  text-transform: uppercase;
+  font-size: 3.8em;
+  float: left;
+  margin: 0px 16px 10px 0px;
+  line-height: 50px;
 }
 .container .cv h1 {
   font-weight: 100;
@@ -351,6 +358,13 @@ figure button {
   width: 100%;
   color: #fff;
   text-shadow: 4px 4px #074869;
+}
+.detail section.opening:first-letter {
+  text-transform: uppercase;
+  font-size: 3.8em;
+  float: left;
+  margin: 0px 16px 10px 0px;
+  line-height: 50px;
 }
 .detail section {
   padding-top: 50px;
