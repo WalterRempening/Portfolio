@@ -3,6 +3,7 @@ var app = angular.module( 'MainApp',
   [ 'ngAnimate',
     'ngMaterial',
     'ui.router',
+    'wpCore',
     'wpNav',
     'wcSocket',
     'wpCurriculum',
@@ -57,7 +58,10 @@ app.config(
         .state( 'content.detail', {
           url: '/{workTitel}&index={index}',
           templateUrl: '../../views/portfolio/portfolio-work-generic.html',
-          data: { location: "portfolio" }
+          data: { location: "portfolio" },
+          onEnter: function ($window) {
+            $window.scrollTo( 0, 0 );
+          }
         } )
         .state( 'content.about', {
           url: '/about',

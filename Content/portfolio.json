@@ -3,32 +3,43 @@
     {
       "titel": "Activity Sculpture Configurator",
       "description": "3D Datavisualization configurator for activity driven sculptures",
-      "class": "configurator"
+      "class": "sculptures",
+      "color": "#F0EB08",
+      "cover":"sculptures/Sculptures-cover.jpg"
     },
     {
       "titel": "ROLIC: Rolable Induction Cooking",
       "description": "Physical prototyping of kitchen workspaces of the future",
-      "class": "rolic"
+      "class": "rolic",
+      "color": "#FF4C59",
+      "cover":"rolic/Rolic-cover.jpg"
     },
     {
       "titel": "GLOSUS",
       "description": "sustainability platform for small and mid-sized companies",
-      "class": "global"
+      "class": "glosus",
+      "color": "#32B8FF",
+      "cover":"glosus/Glosus-cover.jpg"
     },
     {
       "titel": "Drivedeck Sport",
       "description": "Your driving analytics companion",
-      "class": "driver"
+      "class": "drivedeck",
+      "color": "#F0EB08",
+      "cover":"drivedeck/Drivedeck-cover.jpg"
     },
     {
       "titel": "Creative Coding",
       "description": "Generative and procedural pieces",
-      "class": "creative"
+      "class": "creative",
+      "color": "#FF4C59",
+      "cover":"sculptures/Sculptures-cover.jpg"
     }
   ],
   "details": [
     {
       "titel": "Activity Sculpture Configurator"
+
     },
     {
       "titel": "ROLIC: Rolable Induction Cooking"

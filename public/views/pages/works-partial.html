@@ -10,9 +10,10 @@
              wtitel="{{work.titel}}"
              wdescription="{{work.description}}"
              wlink="{{work.link}}"
-             wimage="img/portfolio/sculptures/sculptures.jpg"
+             wimage="img/portfolio/{{work.cover}}"
              wplane-color="{{work.color}}"
              windex = "{{$index}}"
+             wclass = "{{work.class}}"
              ng-mouseenter="play()"
              ng-mouseleave="reverse()">
     </wp-tile>

@@ -36,8 +36,9 @@
         scope.tileConfig = {
           titel: attrs.wtitel,
           description: attrs.wdescription,
+          class: attrs.wclass,
           img: attrs.wimage,
-          planeColor: "#FF4C59",  //attrs.wplaneColor
+          planeColor: attrs.wplaneColor,
           index : attrs.windex,
           link: function () {
             var address = attrs.wtitel.replace( /\s/g, '-' );

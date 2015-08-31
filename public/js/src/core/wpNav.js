@@ -4,8 +4,6 @@
     .controller( 'NavigationController',
     [ '$state', '$scope', function ( $state, $scope ) {
       $scope.currentPage = $state.current.data.location;
-      console.log( $scope.currentPage );
-
       $scope.state = {
         port: $scope.currentPage == "portfolio" ? "active" : "idle",
         about: $scope.currentPage == "about" ? "active" : "idle",
