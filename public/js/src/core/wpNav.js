@@ -3,7 +3,9 @@
   angular.module( 'wpNav', [] )
     .controller( 'NavigationController',
     [ '$state', '$scope', function ( $state, $scope ) {
-      $scope.currentPage = $state.current.name.split( "." )[ 1 ];
+      $scope.currentPage = $state.current.data.location;
+      console.log( $scope.currentPage );
+
       $scope.state = {
         port: $scope.currentPage == "portfolio" ? "active" : "idle",
         about: $scope.currentPage == "about" ? "active" : "idle",
@@ -11,7 +13,7 @@
       };
 
       $scope.$on( "$stateChangeSuccess", function () {
-        $scope.currentPage = $state.current.name.split( "." )[ 1 ];
+        $scope.currentPage = $state.current.data.location;
         $scope.state = {
           port: $scope.currentPage == "portfolio" ? "active" : "idle",
           about: $scope.currentPage == "about" ? "active" : "idle",

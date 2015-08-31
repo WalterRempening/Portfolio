@@ -24,6 +24,7 @@ ul {
 .wrapper {
   min-height: 100%;
   height: auto !important;
+  overflow: inherit;
 }
 .content {
   background-color: #fff;
@@ -119,6 +120,7 @@ nav ul li .idle {
   width: 70%;
   min-height: 100%;
   margin: 0 auto;
+  padding: 30px 0px 30px;
   position: relative;
 }
 .container .slogan {
@@ -207,6 +209,7 @@ nav ul li .idle {
   position: relative;
   overflow: hidden;
   margin: 5px;
+  background-color: #000;
 }
 .grid a figure svg {
   position: absolute;
@@ -331,14 +334,46 @@ figure button {
   -ms-transform: translateY(-50%) translateX(-50%) scale(1);
   transform: translateY(-50%) translateX(-50%) scale(1);
 }
+.white-section-bg {
+  background-color: #fff;
+}
+.blue-section-bg {
+  background-color: #117bb2;
+}
+.red-section-bg {
+  background-color: #8c2a36;
+}
+.ochre-section-bg {
+  background-color: #b2ae1a;
+}
+.black-section-bg {
+  background-color: rgba(0,0,0,0) 0;
+}
+.skew-bg {
+  -webkit-transform: skew(0deg, -5deg);
+  -moz-transform: skew(0deg, -5deg);
+  -o-transform: skew(0deg, -5deg);
+  -ms-transform: skew(0deg, -5deg);
+  transform: skew(0deg, -5deg);
+  height: 100%;
+  padding: 30px 0px;
+}
+.unskew {
+  -webkit-transform: skew(0deg, 5deg);
+  -moz-transform: skew(0deg, 5deg);
+  -o-transform: skew(0deg, 5deg);
+  -ms-transform: skew(0deg, 5deg);
+  transform: skew(0deg, 5deg);
+  padding-top: 60px;
+}
 .detail {
   background-color: #fff;
 }
-.detail .container {
-  margin-top: 200px;
+.detail .intro {
+  margin-top: 300px;
 }
 .detail .header-bg {
-  background: url("../img/sculptures.jpg") no-repeat;
+  background: url("../img/portfolio/sculptures/sculptures.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -351,29 +386,54 @@ figure button {
 }
 .detail .work-titel {
   position: absolute;
-  top: -150px;
+  top: -8%;
   font-size: 3.5em;
   font-weight: 800;
   text-align: center;
   width: 100%;
   color: #fff;
-  text-shadow: 4px 4px #074869;
+  text-shadow: 2px 2px #074869;
 }
-.detail section.opening:first-letter {
+.detail section {
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.detail .opening {
+  width: 70%;
+}
+.detail .opening:first-letter {
   text-transform: uppercase;
   font-size: 3.8em;
   float: left;
   margin: 0px 16px 10px 0px;
   line-height: 50px;
 }
-.detail section {
-  padding-top: 50px;
+.detail .gallery-stack {
+  width: 80%;
+  margin: 0 auto;
+}
+.detail .gallery-stack img {
+  width: 100%;
+}
+.detail .copy {
+  width: 70%;
+  padding: 0px 0px 20px;
+}
+.detail h2.sub-titel {
+  font-size: 2.4em;
+  font-weight: 800;
+  width: 80%;
+  margin: 30px auto 40px;
+  text-align: center;
 }
 .footer {
   height: 130px;
   width: 100%;
   padding-top: 50px;
   background-color: #fff;
+}
+.footer .container {
+  padding: 0;
 }
 .footer span {
   font-size: 0.9em;

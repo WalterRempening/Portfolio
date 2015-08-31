@@ -10,7 +10,7 @@ var app = angular.module( 'MainApp',
     'wpSnap',
     'wpPortfolio',
     'wpWorkDetail',
-    'wcFooter']
+    'wcFooter' ]
 );
 
 app.config(
@@ -21,7 +21,7 @@ app.config(
     function ( $stateProvider,
                $urlRouterProvider,
                $mdThemingProvider,
-               $locationProvider) {
+               $locationProvider ) {
 
       // Setup angular material theme
       $mdThemingProvider.theme( 'default' )
@@ -37,10 +37,10 @@ app.config(
         }
       );
 
-      $locationProvider.html5Mode({
+      $locationProvider.html5Mode( {
         enabled: true,
         requireBase: false
-      });
+      } );
 
       $stateProvider.state( 'home', {
         url: '/',
@@ -51,21 +51,24 @@ app.config(
         } )
         .state( 'content.portfolio', {
           url: '/portfolio',
-          templateUrl: '../../views/pages/works-partial.html'
+          templateUrl: '../../views/pages/works-partial.html',
+          data: { location: "portfolio" }
         } )
         .state( 'content.detail', {
           url: '/{workTitel}&index={index}',
-          templateUrl: '../../views/portfolio/portfolio-work-generic.html'
+          templateUrl: '../../views/portfolio/portfolio-work-generic.html',
+          data: { location: "portfolio" }
         } )
         .state( 'content.about', {
           url: '/about',
-          templateUrl: '../../views/pages/about-partial.html'
+          templateUrl: '../../views/pages/about-partial.html',
+          data: { location: "about" }
         } )
         .state( 'content.contact', {
           url: '/contact',
-          templateUrl: '../../views/pages/contact-partial.html'
+          templateUrl: '../../views/pages/contact-partial.html',
+          data: { location: "contact" }
         } );
-
 
 
     } ] );

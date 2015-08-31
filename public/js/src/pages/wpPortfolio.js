@@ -47,7 +47,7 @@
         };
 
         scope.toWork = function ( target, wIndex ) {
-          $state.transitionTo( 'content.detail', { workTitel: target, index: wIndex } );
+          $state.go( 'content.detail', { workTitel: target, index: wIndex } );
         };
 
       };
