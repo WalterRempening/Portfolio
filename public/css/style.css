@@ -386,11 +386,8 @@ figure button {
   transform: skew(0deg, 5deg);
   padding-top: 60px;
 }
-.detail {
-  background-color: #fff;
-}
-.detail .intro {
-  margin-top: 300px;
+.detail .frame {
+  width: 100%;
 }
 .detail .header-bg {
   width: 100%;
@@ -431,13 +428,15 @@ figure button {
   background-size: cover;
 }
 .detail .work-titel {
-  position: absolute;
-  top: -8%;
-  font-size: 3.5em;
+  font-size: 4.5em;
   font-weight: 800;
   text-align: center;
   width: 100%;
   color: #fff;
+  height: 260px;
+  margin: 0;
+  padding-top: 70px;
+  display: inline-block;
   text-shadow: 2px 2px #074869;
 }
 .detail section {
@@ -473,7 +472,7 @@ figure button {
   text-align: center;
 }
 .footer {
-  height: 130px;
+  height: 60px;
   width: 100%;
   padding-top: 50px;
   background-color: #fff;
@@ -548,7 +547,6 @@ figure button {
 .works.ng-enter {
   position: absolute;
   left: 0;
-  top: 31.1%;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
