@@ -6,12 +6,15 @@
 $wp-black = #00000
 $wp-bg = #ffffff
 $wp-red = #FF4C59
+$wp-light-red = #F5DFE1
 $wp-dark-red = #8C2A36
 $wp-blue = #32B8FF
+$wp-light-blue = #BCDCEC
 $wp-blue-h1 = #BAE3F9
 $wp-dark-blue = #117BB2
 $wp-dark-blue-h1 = #074869
 $wp-ochre = #CCC714
+$wp-light-ochre = #E4E4CF
 $wp-ochre-h1 = #F0EB08
 $wp-dark-ochre = #B2AE1A
 
@@ -25,7 +28,7 @@ first-letter-capital()
 
 @font-face {
   font-family: 'Tannenberg-Fett';
-  src:url('../fonts/Tannenberg-Fett.ttf.woff') format('woff'),
+  src: url('../fonts/Tannenberg-Fett.ttf.woff') format('woff'),
   url('../fonts/Tannenberg-Fett.ttf.svg#Tannenberg-Fett') format('svg'),
   url('../fonts/Tannenberg-Fett.ttf.eot'),
   url('../fonts/Tannenberg-Fett.ttf.eot?#iefix') format('embedded-opentype');
@@ -63,9 +66,10 @@ md-content
 md-content.header-bg
   height 250px
   background-color $wp-dark-blue
-  transform skew(0deg,-5deg)
+  transform skew(0deg, -5deg)
   margin -65px 0px 100px
   position relative
+  outline 1px solid transparent
   z-index 2
 
 nav
@@ -90,13 +94,11 @@ nav
       text-transform uppercase
       font-size 1.4em
       font-weight 800
-      color $wp-bg
-  
+
       a
         color $wp-blue-h1
         margin-bottom 5px
         display inline-block
-        padding-bottom 10px
         transition color 0.5s
         font-weight 100
 
@@ -107,7 +109,8 @@ nav
       .active
         color $wp-bg
         border-bottom 3px solid $wp-red
-        transition color 0.5s
+        padding-bottom 10px
+      //transition color 0.5s ease-in-out
 
       .idle
         color $wp-blue-h1
@@ -118,7 +121,7 @@ nav
   background-color $wp-dark-blue
   z-index 0
   position absolute
-  transform skew(0deg,-10deg)
+  transform skew(0deg, -10deg)
   margin -128px 0px 0px
 
 .container
@@ -196,98 +199,98 @@ nav
       text-align right
       padding-right 30px
 
- .grid
-    margin: 40px auto 120px;
-    max-width: 1000px;
-    width: 90%;
+.grid
+  margin: 40px auto 10px;
+  max-width: 1000px;
+  width: 90%;
 
-    a
-      width: 100%;
-      color: #333;
-      display inline-block
-      margin-bottom 30px
+  a
+    width: 100%;
+    color: #333;
+    display inline-block
+    margin-bottom 30px
 
-      figure
-        position relative
-        overflow hidden
-        margin 5px
-        background-color #000000
+    figure
+      position relative
+      overflow hidden
+      margin 5px
+      background-color #000000
 
-        svg
-          position absolute
-          top -1px
-          z-index 10
-          width 100%
-          height 100%
+      svg
+        position absolute
+        top -1px
+        z-index 10
+        width 100%
+        height 100%
 
-        button
-          position absolute
-          padding: 4px 20px
+      button
+        position absolute
+        padding: 4px 20px
+        text-transform uppercase
+        letter-spacing 1px
+        font-weight bold
+        transition opacity 0.3s, transform 0.3s
+        top 50%
+        left 50%
+        border: 3px solid $wp-ochre;
+        background: transparent;
+        color: $wp-bg;
+        opacity: 0;
+        width 120px
+        font-size 2em
+        transform: translateY(-50%) translateX(-50%) scale(0.25);
+
+      .sculptures
+        border-color $wp-ochre
+        color #ffffff
+      .glosus
+        border-color $wp-dark-blue
+        color #000000
+      .rolic
+        border-color $wp-dark-red
+        color #ffffff
+      .creative
+        border-color $wp-red
+        color #ffffff
+      .drivedeck
+        border-color $wp-ochre
+        color #ffffff
+
+      img
+        position: relative;
+        display: block;
+        width: 100%;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+
+      figcaption
+        position absolute
+        top 0
+        z-index 11
+        width 100%
+        height 100%
+        text-align left
+
+        h2
+          font-size 2.4em
+          margin 15px 0 5px 0
+          color $wp-bg
           text-transform uppercase
           letter-spacing 1px
-          font-weight bold
-          transition opacity 0.3s, transform 0.3s
-          top 50%
-          left 50%
-          border: 3px solid $wp-ochre;
-          background: transparent;
-          color: $wp-bg;
-          opacity: 0;
-          width 120px
-          font-size 2em
-          transform: translateY(-50%) translateX(-50%) scale(0.25);
+          font-weight 300
+          transform translateY(50px)
+          transition transform 0.3s
 
-        .sculptures
-          border-color $wp-ochre
-          color #ffffff
-        .glosus
-          border-color $wp-dark-blue
-          color #000000
-        .rolic
-          border-color $wp-dark-red
-          color #ffffff
-        .creative
-          border-color $wp-red
-          color #ffffff
-        .drivedeck
-          border-color $wp-ochre
-          color #ffffff
+        h2, p
+          transform translateY(50px)
+          padding-left 30px
+        p
+          margin-top 5px
+          font-size 1.2em
 
-        img
-          position: relative;
-          display: block;
-          width: 100%;
-          opacity: 0.7;
-          transition: opacity 0.3s;
-
-        figcaption
-          position absolute
-          top 0
-          z-index 11
-          width 100%
-          height 100%
-          text-align left
-
-          h2
-            font-size 2.4em
-            margin 15px 0 5px 0
-            color $wp-bg
-            text-transform uppercase
-            letter-spacing 1px
-            font-weight 300
-            transform translateY(50px)
-            transition transform 0.3s
-
-          h2, p
-            transform translateY(50px)
-            padding-left 30px
-          p
-            margin-top 5px
-            font-size 1.2em
-
-  figcaption, h2, p,
-  figure button
-    backface-visibility: hidden
+figcaption, h2, p,
+figure button
+  backface-visibility: hidden
 
 .grid a:hover figure img {
   opacity: 1;
@@ -311,31 +314,51 @@ nav
   background-color $wp-bg
 
 .blue-section-bg
-  background-color $wp-dark-blue
+  background-color $wp-light-blue
 
 .red-section-bg
-  background-color $wp-dark-red
+  background-color $wp-red-red
 
 .ochre-section-bg
-  background-color $wp-dark-ochre
+  background-color $wp-light-ochre
 
 .black-section-bg
   background-color $wp-black
 
 .skew-bg
-  transform skew(0deg,-5deg)
+  transform skew(0deg, -5deg)
   height 100%
-  padding 30px 0px
+  padding 0px
+
+  h2
+    padding 0px
+
+  span, h2
+    transform skew(0deg, 5deg)
+
+  span
+    display block
+    //padding-top 30px
+
+  .container
+    padding-top 0px
+
+    .copy
+      padding-bottom 30px
+
+  .gallery-stack, .gallery-strip
+    transform skew(0deg, 5deg)
+    padding-bottom 60px
+
 
 .unskew
-  transform skew(0deg,5deg)
+  transform skew(0deg, 5deg)
   padding-top 60px
 
 .detail
 
   .frame
     width 100%
-
 
   .header-bg
     width 100%
@@ -361,7 +384,6 @@ nav
     background url("../img/portfolio/glosus/Glosus-cover.jpg") no-repeat
     background-size cover
 
-
   .work-titel
     font-size 4.5em
     font-weight 800
@@ -378,32 +400,51 @@ nav
     padding-top 50px
     margin 0 auto
 
+  section.skew-bg
+    padding-top 0px
+
   .opening
-    width 70%
+    width 100%
     &:first-letter
       first-letter-capital()
 
+  .gallery-none
+    display none
+
   .gallery-stack
-    width 80%
+    width 55%
     margin 0 auto
+    padding-bottom 70px
 
     img
       width 100%
 
+  .gallery-strip
+    width 100%
+
+    img
+      width 25%
+
+
   .copy
     width 70%
-    padding 0px 0px 20px
+    margin 0 auto
+    padding 0px 0px 40px
 
+  h2.empty
+    display none
   h2.sub-titel
-    font-size 2.4em
+    font-size 3em
     font-weight 800
+    text-transform uppercase
     width 80%
-    margin 30px auto 40px
+    margin 30px auto 20px
     text-align center
-
+    position relative
+    top -30px
 
 .footer
-  height 60px
+  height 80px
   width 100%
   padding-top 50px
   background-color $wp-bg
@@ -416,7 +457,6 @@ nav
     text-align center
     display block
     margin 0px auto
-
 
 [ui-view].ng-enter, [ui-view].ng-leave, .content.ng-leave, .content.ng-enter
   position absolute
@@ -434,15 +474,12 @@ nav
 
 [ui-view].ng-leave, .content.ng-leave
   opacity 1
-  transform translate3d(0, 0, 0)
 
 [ui-view].ng-leave-active, .content.ng-leave-active
   opacity 0
-  transform translate3d(0, 100px, 0)
 
 .works.ng-leave, .works.ng-enter
   position absolute
-  left 0
   transition all 0.4s ease-in-out
 
 .works.ng-enter

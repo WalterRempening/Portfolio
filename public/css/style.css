@@ -43,6 +43,7 @@ md-content.header-bg {
   transform: skew(0deg, -5deg);
   margin: -65px 0px 100px;
   position: relative;
+  outline: 1px solid transparent;
   z-index: 2;
 }
 nav {
@@ -69,13 +70,11 @@ nav ul li {
   text-transform: uppercase;
   font-size: 1.4em;
   font-weight: 800;
-  color: #fff;
 }
 nav ul li a {
   color: #bae3f9;
   margin-bottom: 5px;
   display: inline-block;
-  padding-bottom: 10px;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
@@ -94,11 +93,7 @@ nav ul li a:hover {
 nav ul li .active {
   color: #fff;
   border-bottom: 3px solid #ff4c59;
-  -webkit-transition: color 0.5s;
-  -moz-transition: color 0.5s;
-  -o-transition: color 0.5s;
-  -ms-transition: color 0.5s;
-  transition: color 0.5s;
+  padding-bottom: 10px;
 }
 nav ul li .idle {
   color: #bae3f9;
@@ -195,7 +190,7 @@ nav ul li .idle {
   padding-right: 30px;
 }
 .grid {
-  margin: 40px auto 120px;
+  margin: 40px auto 10px;
   max-width: 1000px;
   width: 90%;
 }
@@ -358,13 +353,13 @@ figure button {
   background-color: #fff;
 }
 .blue-section-bg {
-  background-color: #117bb2;
+  background-color: #bcdcec;
 }
 .red-section-bg {
-  background-color: #8c2a36;
+  background-color: $wp-red-red;
 }
 .ochre-section-bg {
-  background-color: #b2ae1a;
+  background-color: #e4e4cf;
 }
 .black-section-bg {
   background-color: rgba(0,0,0,0) 0;
@@ -376,7 +371,36 @@ figure button {
   -ms-transform: skew(0deg, -5deg);
   transform: skew(0deg, -5deg);
   height: 100%;
-  padding: 30px 0px;
+  padding: 0px;
+}
+.skew-bg h2 {
+  padding: 0px;
+}
+.skew-bg span,
+.skew-bg h2 {
+  -webkit-transform: skew(0deg, 5deg);
+  -moz-transform: skew(0deg, 5deg);
+  -o-transform: skew(0deg, 5deg);
+  -ms-transform: skew(0deg, 5deg);
+  transform: skew(0deg, 5deg);
+}
+.skew-bg span {
+  display: block;
+}
+.skew-bg .container {
+  padding-top: 0px;
+}
+.skew-bg .container .copy {
+  padding-bottom: 30px;
+}
+.skew-bg .gallery-stack,
+.skew-bg .gallery-strip {
+  -webkit-transform: skew(0deg, 5deg);
+  -moz-transform: skew(0deg, 5deg);
+  -o-transform: skew(0deg, 5deg);
+  -ms-transform: skew(0deg, 5deg);
+  transform: skew(0deg, 5deg);
+  padding-bottom: 60px;
 }
 .unskew {
   -webkit-transform: skew(0deg, 5deg);
@@ -443,8 +467,11 @@ figure button {
   padding-top: 50px;
   margin: 0 auto;
 }
+.detail section.skew-bg {
+  padding-top: 0px;
+}
 .detail .opening {
-  width: 70%;
+  width: 100%;
 }
 .detail .opening:first-letter {
   text-transform: uppercase;
@@ -453,26 +480,43 @@ figure button {
   margin: 0px 16px 10px 0px;
   line-height: 50px;
 }
+.detail .gallery-none {
+  display: none;
+}
 .detail .gallery-stack {
-  width: 80%;
+  width: 55%;
   margin: 0 auto;
+  padding-bottom: 70px;
 }
 .detail .gallery-stack img {
   width: 100%;
 }
+.detail .gallery-strip {
+  width: 100%;
+}
+.detail .gallery-strip img {
+  width: 25%;
+}
 .detail .copy {
   width: 70%;
-  padding: 0px 0px 20px;
+  margin: 0 auto;
+  padding: 0px 0px 40px;
+}
+.detail h2.empty {
+  display: none;
 }
 .detail h2.sub-titel {
-  font-size: 2.4em;
+  font-size: 3em;
   font-weight: 800;
+  text-transform: uppercase;
   width: 80%;
-  margin: 30px auto 40px;
+  margin: 30px auto 20px;
   text-align: center;
+  position: relative;
+  top: -30px;
 }
 .footer {
-  height: 60px;
+  height: 80px;
   width: 100%;
   padding-top: 50px;
   background-color: #fff;
@@ -526,27 +570,16 @@ figure button {
   opacity: 1;
   -ms-filter: none;
   filter: none;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
 }
 [ui-view].ng-leave-active,
 .content.ng-leave-active {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
-  -webkit-transform: translate3d(0, 100px, 0);
-  -moz-transform: translate3d(0, 100px, 0);
-  -o-transform: translate3d(0, 100px, 0);
-  -ms-transform: translate3d(0, 100px, 0);
-  transform: translate3d(0, 100px, 0);
 }
 .works.ng-leave,
 .works.ng-enter {
   position: absolute;
-  left: 0;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;

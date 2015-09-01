@@ -1,81 +1,24 @@
 <section class="detail" ng-controller="DetailController">
-    <div class="header-bg ng-class:portStyle.class"></div>
-    <h1 class="work-titel">{{portContent.titel}}</h1>
+  <div class="header-bg ng-class:portStyle.class"></div>
+  <h1 class="work-titel">{{portContent.titel}}</h1>
+
   <div class="frame white-section-bg">
-    <div class="container ">
-      <section class="opening">
-        Elit blacksmith hold steady keyboardist? Cardinal richelieu boogie
-        nights lip warmer?
-        Tom selleck dick van dyke socially mobile bad guy cunning like a fox
-        educated village people, des lynam socially mobile grooming village
-        people tom selleck dick van dyke tricky sneezes bad guy cunning like a
-        fox educated Freddie mercury, cunning like a fox class definer des lynam
-        tricky sneezes tom selleck bad guy socially mobile village people dick
-        van dyke Freddie mercury grooming freestyle educated got milk.
-        <br/>
-        Old west sheriff groucho-a-like toothbrush furry facial friend boogie
-        nights face mop, brad pitt super mario boogie nights toothbrush
-        ding-dong furry facial friend terry thomas old west sheriff grooming
-        barber shop quartet groucho-a-like soup strainer face mop des lynam,
-        boogie nights blacksmith super mario groucho-a-like toothbrush
-        d’artagnan barber shop quartet face mop furry facial friend boogie
-        nights theodore roosevelt brad pitt old west sheriff terry thomas
-        grooming Leonine gunslinger des lynam cunning like a fox bad guy
-        ding-dong soup strainer. Cripes um yesbaby el snort dali?
-      </section>
-      <h2 class="sub-titel">Prototypes</h2>
-      <section class="copy">
-        Elit blacksmith hold steady keyboardist? Cardinal richelieu boogie
-        nights lip warmer?
-        Tom selleck dick van dyke socially mobile bad guy cunning like a fox
-        educated village people, des lynam socially mobile grooming village
-        people tom selleck dick van dyke tricky sneezes bad guy cunning like a
-        fox educated Freddie mercury, cunning like a fox class definer des lynam
-        tricky sneezes tom selleck bad guy socially mobile village people dick
-        van dyke Freddie mercury grooming freestyle educated got milk.
-        <br/>
-        Old west sheriff groucho-a-like toothbrush furry facial friend boogie
-        nights face mop, brad pitt super mario boogie nights toothbrush
-        ding-dong furry facial friend terry thomas old west sheriff grooming
-        barber shop quartet groucho-a-like soup strainer face mop des lynam,
-        boogie nights blacksmith super mario groucho-a-like toothbrush
-        d’artagnan barber shop quartet face mop furry facial friend boogie
-        nights theodore roosevelt brad pitt old west sheriff terry thomas
-        grooming Leonine gunslinger des lynam cunning like a fox bad guy
-        ding-dong soup strainer. Cripes um yesbaby el snort dali?
-      </section>
-      <section class="gallery-stack">
-        <img src="img/portfolio/sculptures/ActivityVase.jpg"
-             alt="Web-based Activity Sculpture Configurator"/>
-        <img src="img/portfolio/sculptures/Configurator-UI-2_01.jpg"
-             alt="Web-based Activity Sculpture Configurator"/>
-      </section>
-    </div>
-    <div class="skew-bg ochre-section-bg">
-      <div class="container unskew">
-        <section class="copy">
-          Elit blacksmith hold steady keyboardist? Cardinal richelieu boogie
-          nights lip warmer?
-          Tom selleck dick van dyke socially mobile bad guy cunning like a fox
-          educated village people, des lynam socially mobile grooming village
-          people tom selleck dick van dyke tricky sneezes bad guy cunning like a
-          fox educated Freddie mercury, cunning like a fox class definer des
-          lynam
-          tricky sneezes tom selleck bad guy socially mobile village people dick
-          van dyke Freddie mercury grooming freestyle educated got milk.
-          <br/>
-          Old west sheriff groucho-a-like toothbrush furry facial friend boogie
-          nights face mop, brad pitt super mario boogie nights toothbrush
-          ding-dong furry facial friend terry thomas old west sheriff grooming
-          barber shop quartet groucho-a-like soup strainer face mop des lynam,
-          boogie nights blacksmith super mario groucho-a-like toothbrush
-          d’artagnan barber shop quartet face mop furry facial friend boogie
-          nights theodore roosevelt brad pitt old west sheriff terry thomas
-          grooming Leonine gunslinger des lynam cunning like a fox bad guy
-          ding-dong soup strainer. Cripes um yesbaby el snort dali?
-        </section>
+
+    <section ng-repeat="block in portContent.content"
+             class="{{block.type}}">
+      <div class="container">
+        <div class="copy">
+          <h2 class="sub-titel {{block.titel}}">{{block.titel}}</h2>
+          <span>{{block.copy}}</span>
+        </div>
       </div>
-    </div>
+      <section class="gallery-{{block.gallery.type}}">
+        <img ng-repeat="foto in block.gallery.fotos"
+             src="img/portfolio/{{foto}}"
+             alt="{{portContent.titel}} Gallery"/>
+      </section>
+    </section>
+  </div>
   </div>
 </section>
 <wp-footer></wp-footer>
