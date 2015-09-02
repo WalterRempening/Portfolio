@@ -4,6 +4,7 @@
 
 //-----------  Color Scheme  ---------------
 $wp-black = #00000
+$wp-hover-gray = #D2D2D2
 $wp-copy-text = #797979
 $wp-bg = #ffffff
 $wp-red = #FF4C59
@@ -193,7 +194,7 @@ nav
             right 0px
 
           a
-            color $wp-blue
+            color $wp-hover-gray
             transition color 0.2s ease-in-out
 
       .blop
@@ -206,7 +207,7 @@ nav
         margin 0 auto
 
       .left,.right
-        transition opacity 0.4s ease-in-out, left 0.3s, right 0.3s
+        transition opacity 0.4s ease-in-out, left 0.2s, right 0.2s
         opacity 0
       .left
         left 24px
@@ -522,6 +523,9 @@ figure button
       font-size 3em
       text-align center
 
+    span
+      text-align center
+      display block
 
     span.medium
       font-size 1.2em
@@ -546,7 +550,7 @@ figure button
       text-align center
 
       &:hover
-        color $wp-copy-text
+        color $wp-hover-gray
         transition color 0.2s linear
         cursor pointer
 
