@@ -4,15 +4,8 @@
       "titel": "Activity Sculpture Configurator",
       "description": "3D Datavisualization configurator for activity driven sculptures",
       "class": "sculptures",
-      "color": "#F0EB08",
+      "color": "#FFCD57",
       "cover": "sculptures/Sculptures-cover.jpg"
-    },
-    {
-      "titel": "ROLIC: Rolable Induction Cooking",
-      "description": "Physical prototyping of kitchen workspaces of the future",
-      "class": "rolic",
-      "color": "#FF4C59",
-      "cover": "rolic/Rolic-cover.jpg"
     },
     {
       "titel": "GLOSUS",
@@ -25,15 +18,15 @@
       "titel": "Drivedeck Sport",
       "description": "Your driving analytics companion",
       "class": "drivedeck",
-      "color": "#F0EB08",
+      "color": "#FF4C59",
       "cover": "drivedeck/Drivedeck-cover.jpg"
     },
     {
-      "titel": "Creative Coding",
-      "description": "Generative and procedural pieces",
-      "class": "creative",
-      "color": "#FF4C59",
-      "cover": "sculptures/Sculptures-cover.jpg"
+      "titel": "ROLIC: Rolable Induction Cooking",
+      "description": "Physical prototyping of kitchen workspaces of the future",
+      "class": "rolic",
+      "color":  "#FFCD57",
+      "cover": "rolic/Rolic-cover.jpg"
     }
   ],
   "details": [
@@ -87,9 +80,6 @@
     },
     {
       "titel": "Drivedeck Sport"
-    },
-    {
-      "titel": "Creative Coding"
     }
   ]
 }

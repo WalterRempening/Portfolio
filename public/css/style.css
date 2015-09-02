@@ -112,25 +112,36 @@ nav ul li .idle {
   margin: -128px 0px 0px;
 }
 .container {
-  width: 70%;
+  width: 60%;
   min-height: 100%;
   margin: 0 auto;
   padding: 30px 0px 30px;
   position: relative;
 }
 .container .slogan {
-  font-size: 3em;
+  font-size: 2.3em;
   text-align: center;
   font-style: italic;
-  font-weight: 800;
+  font-weight: 100;
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 70px;
 }
-.container .slogan span {
+.container .slogan .line {
   display: block;
-  border: 3px solid #ccc714;
+  border: 1px solid #e4e4cf;
   width: 300px;
   margin: 40px auto;
+}
+.container .slogan .quote {
+  font-style: normal;
+  font-size: 0.3em;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.container .slogan .author {
+  font-size: 0.6em;
+  color: #797979;
 }
 .container .home-logo {
   width: 80%;
@@ -159,20 +170,31 @@ nav ul li .idle {
 .container .profile {
   height: 400px;
   width: 200px;
-  background-color: #006;
   margin: 20px;
+  background-image: url("../img/profile.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
 }
 .container .bio {
   font-weight: 100;
 }
-.container .bio:first-letter {
-  text-transform: uppercase;
-  font-size: 3.8em;
-  float: left;
-  margin: 0px 16px 10px 0px;
-  line-height: 50px;
+.container .bio span.opener {
+  font-weight: 800;
+  font-size: 1.3em;
+  display: inline-block;
+  width: 70%;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
-.container .cv h1 {
+.container .bio p {
+  color: #797979;
+}
+.container .cv {
+  margin: 0px 0px 0px 40px;
+}
+.container .cv h2 {
   font-weight: 100;
 }
 .container .cv div {
@@ -180,12 +202,12 @@ nav ul li .idle {
 }
 .container .cv span {
   margin: 5px 0px 0px 0px;
-  color: #353535;
+  color: #3c3c3c;
 }
 .container .cv .year {
   font-style: italic;
   font-weight: 800;
-  color: #808080;
+  color: #a5a4a4;
   text-align: right;
   padding-right: 30px;
 }
@@ -249,7 +271,7 @@ nav ul li .idle {
   color: #000;
 }
 .grid a figure .rolic {
-  border-color: #8c2a36;
+  border-color: #b2ae1a;
   color: #fff;
 }
 .grid a figure .creative {
@@ -257,7 +279,7 @@ nav ul li .idle {
   color: #fff;
 }
 .grid a figure .drivedeck {
-  border-color: #ccc714;
+  border-color: #ff4c59;
   color: #fff;
 }
 .grid a figure img {

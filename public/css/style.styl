@@ -4,6 +4,7 @@
 
 //-----------  Color Scheme  ---------------
 $wp-black = #00000
+$wp-copy-text = #797979
 $wp-bg = #ffffff
 $wp-red = #FF4C59
 $wp-light-red = #F5DFE1
@@ -125,25 +126,40 @@ nav
   margin -128px 0px 0px
 
 .container
-  width 70%
+  width 60%
   min-height 100%
   margin 0 auto
   padding 30px 0px 30px
   position relative
 
   .slogan
-    font-size 3em
+    font-size 2.3em
     text-align center
     font-style italic
-    font-weight 800
+    font-weight 100
     width 70%
-    margin 0 auto
+    margin 0 auto 70px
 
-    span
+    .line
       display block
-      border 3px solid $wp-ochre
+      border 1px solid $wp-light-ochre
       width 300px
       margin 40px auto
+
+    .quote
+      font-style normal
+      font-size 0.3em
+      margin-top 20px
+      font-weight bold
+      margin-bottom 20px
+
+    .author
+      font-size 0.6em
+      color $wp-copy-text
+
+
+
+
 
   .home-logo
     width 80%
@@ -172,16 +188,29 @@ nav
   .profile
     height 400px
     width 200px
-    background-color #000066
     margin 20px
+    background-image url('../img/profile.jpg')
+    background-repeat no-repeat
+    background-size contain
 
   .bio
     font-weight 100
-    &:first-letter
-      first-letter-capital()
+
+    span.opener
+      font-weight 800
+      font-size 1.3em
+      display inline-block
+      width 70%
+      padding-top 20px
+      margin-bottom 20px
+
+    p
+      color $wp-copy-text
 
   .cv
-    h1
+    margin 0px 0px 0px 40px
+
+    h2
       font-weight 100
 
     div
@@ -189,13 +218,12 @@ nav
 
     span
       margin 5px 0px 0px 0px
-
-      color #353535
+      color #3C3C3C
 
     .year
       font-style: italic
       font-weight 800
-      color #808080
+      color #A5A4A4
       text-align right
       padding-right 30px
 
@@ -240,6 +268,7 @@ nav
         font-size 2em
         transform: translateY(-50%) translateX(-50%) scale(0.25);
 
+
       .sculptures
         border-color $wp-ochre
         color #ffffff
@@ -247,13 +276,13 @@ nav
         border-color $wp-dark-blue
         color #000000
       .rolic
-        border-color $wp-dark-red
+        border-color $wp-dark-ochre
         color #ffffff
       .creative
         border-color $wp-red
         color #ffffff
       .drivedeck
-        border-color $wp-ochre
+        border-color $wp-red
         color #ffffff
 
       img
@@ -482,13 +511,6 @@ figure button
         color $wp-blue
         transition color 0.2s linear
         cursor pointer
-
-
-
-
-
-  
-
 
 .footer
   height 80px
