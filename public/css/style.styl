@@ -124,7 +124,7 @@ nav
   z-index 0
   position absolute
   transform skew(0deg, -10deg)
-  margin -128px 0px 0px
+  top -170px
 
 .container
   width 70%
@@ -169,7 +169,7 @@ nav
     display block
 
   .links
-    width 50%
+    width 200px
     margin 0 auto
 
     ul
@@ -178,13 +178,50 @@ nav
       li
         font-size 1.4em
         text-align center
-        margin 3px auto
+        margin 8px auto
+        width 200px
+
+        &:hover
+          cursor pointer
+
+          .left, .right
+            opacity 1
+
+          .left
+            left 0px
+          .right
+            right 0px
+
+          a
+            color $wp-blue
+            transition color 0.2s ease-in-out
+
+      .blop
+        display inline-block
+        border-bottom 3px solid $wp-red
+        width 16px
+        position relative
+        top -7px
+        z-index 1
+        margin 0 auto
+
+      .left,.right
+        transition opacity 0.4s ease-in-out, left 0.3s, right 0.3s
+        opacity 0
+      .left
+        left 24px
+      .right
+        right 24px
 
       a
         color #000000
         font-family 'Futura'
         font-weight 100
         text-transform uppercase
+        position: relative
+        z-index 2
+        background-color #ffffff
+        transition color 0.2s ease-in-out
 
   .profile
     height 400px

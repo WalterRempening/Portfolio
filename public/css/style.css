@@ -110,7 +110,7 @@ nav ul li .idle {
   -o-transform: skew(0deg, -10deg);
   -ms-transform: skew(0deg, -10deg);
   transform: skew(0deg, -10deg);
-  margin: -128px 0px 0px;
+  top: -170px;
 }
 .container {
   width: 70%;
@@ -151,7 +151,7 @@ nav ul li .idle {
   display: block;
 }
 .container .links {
-  width: 50%;
+  width: 200px;
   margin: 0 auto;
 }
 .container .links ul {
@@ -160,13 +160,71 @@ nav ul li .idle {
 .container .links ul li {
   font-size: 1.4em;
   text-align: center;
-  margin: 3px auto;
+  margin: 8px auto;
+  width: 200px;
+}
+.container .links ul li:hover {
+  cursor: pointer;
+}
+.container .links ul li:hover .left,
+.container .links ul li:hover .right {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.container .links ul li:hover .left {
+  left: 0px;
+}
+.container .links ul li:hover .right {
+  right: 0px;
+}
+.container .links ul li:hover a {
+  color: #32b8ff;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.container .links ul .blop {
+  display: inline-block;
+  border-bottom: 3px solid #ff4c59;
+  width: 16px;
+  position: relative;
+  top: -7px;
+  z-index: 1;
+  margin: 0 auto;
+}
+.container .links ul .left,
+.container .links ul .right {
+  -webkit-transition: opacity 0.4s ease-in-out, left 0.3s, right 0.3s;
+  -moz-transition: opacity 0.4s ease-in-out, left 0.3s, right 0.3s;
+  -o-transition: opacity 0.4s ease-in-out, left 0.3s, right 0.3s;
+  -ms-transition: opacity 0.4s ease-in-out, left 0.3s, right 0.3s;
+  transition: opacity 0.4s ease-in-out, left 0.3s, right 0.3s;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+.container .links ul .left {
+  left: 24px;
+}
+.container .links ul .right {
+  right: 24px;
 }
 .container .links ul a {
   color: #000;
   font-family: 'Futura';
   font-weight: 100;
   text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 .container .profile {
   height: 400px;
