@@ -34,22 +34,23 @@ md-content {
   overflow: hidden;
 }
 md-content.header-bg {
-  height: 250px;
+  height: 260px;
   background-color: #117bb2;
   -webkit-transform: skew(0deg, -5deg);
   -moz-transform: skew(0deg, -5deg);
   -o-transform: skew(0deg, -5deg);
   -ms-transform: skew(0deg, -5deg);
   transform: skew(0deg, -5deg);
-  margin: -65px 0px 100px;
+  margin: 5px 0px 0px;
   position: relative;
   outline: 1px solid transparent;
   z-index: 2;
+  top: -100px;
 }
 nav {
-  width: 70%;
+  width: 60%;
   height: 200px;
-  margin: 75px auto;
+  margin: 105px auto 0px;
   -webkit-transform: skew(0deg, 5deg);
   -moz-transform: skew(0deg, 5deg);
   -o-transform: skew(0deg, 5deg);
@@ -112,10 +113,10 @@ nav ul li .idle {
   margin: -128px 0px 0px;
 }
 .container {
-  width: 60%;
+  width: 70%;
   min-height: 100%;
   margin: 0 auto;
-  padding: 30px 0px 30px;
+  padding: 0px 0px 30px;
   position: relative;
 }
 .container .slogan {
@@ -570,13 +571,13 @@ figure button {
   -o-transition: color 0.2s linear;
   -ms-transition: color 0.2s linear;
   transition: color 0.2s linear;
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   display: block;
   text-align: center;
 }
 .contact section a:hover {
-  color: #32b8ff;
+  color: #797979;
   -webkit-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
