@@ -371,7 +371,7 @@ figure button {
   -ms-transform: skew(0deg, -5deg);
   transform: skew(0deg, -5deg);
   height: 100%;
-  padding: 0px;
+  padding-bottom: 50px;
 }
 .skew-bg h2 {
   padding: 0px;
@@ -514,6 +514,53 @@ figure button {
   text-align: center;
   position: relative;
   top: -30px;
+}
+.contact section {
+  width: 50%;
+  margin: 20px auto 50px;
+}
+.contact section div {
+  margin-bottom: 40px;
+}
+.contact section h1 {
+  font-size: 3em;
+  text-align: center;
+}
+.contact section span.medium {
+  font-size: 1.2em;
+  color: #9c9c9c;
+  font-weight: 800;
+  text-align: center;
+  display: block;
+  width: 20%;
+  margin: 0 auto 10px;
+  border-bottom: 2px solid #eaeaea;
+}
+.contact section span.medium,
+.contact section a {
+  text-transform: uppercase;
+}
+.contact section a {
+  font-size: 1.8em;
+  color: #000;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.contact section a:hover {
+  color: #32b8ff;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+  cursor: pointer;
 }
 .footer {
   height: 80px;

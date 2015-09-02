@@ -9,6 +9,7 @@ var app = angular.module( 'MainApp',
     'wpCurriculum',
     'wpGsap',
     'wpSnap',
+    'wpContact',
     'wpPortfolio',
     'wpWorkDetail',
     'wcFooter' ]
