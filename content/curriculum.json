@@ -1,0 +1,69 @@
+{
+  "keys": [
+      "Education",
+      "Professional Experience",
+      "Languages"
+  ],
+  "Education": [
+    {
+      "time": "04.2013 - 07.2015",
+      "titel": "LMU München",
+      "content": "Human Computer Interaction, Master of Science"
+    },
+    {
+      "time": "10.2009 - 03.2013",
+      "titel": "Hochschule Deggendorf",
+      "content": "Medientechnik, Bachelor of Engineering"
+    },
+    {
+      "time": "10.2008 - 07.2009",
+      "titel": "Studienkolleg Coburg an der Hochschule Coburg",
+      "content": "Engineering Course"
+    },
+    {
+      "time": "09.2005 - 07.2008",
+      "titel": "Centro de Bachillerato Tecnologico Menonita",
+      "content": "Technical Diploma"
+    }
+  ],
+  "Professional Experience": [
+    {
+      "time": "05.2014 - 04.2015",
+      "titel": "BrainLAB AG",
+      "content": "Werkstudent Web Enticklung"
+    },
+    {
+      "time": "09.2013 - 04.2014",
+      "titel": "GLOSUS",
+      "content": "Werkstudent Web Entwicklung und Produkt Design"
+    },
+    {
+      "time": "10.2012 - 03.2013",
+      "titel": "Inatronic GmbH & Co. KG",
+      "content": "Bachelorarbeit: Development and implementation of an Android based OBD Simulation Device featuring a User Centric GUI"
+    },
+    {
+      "time": "08.2012 - 09.2012",
+      "titel": "Inatronic GmbH & Co. KG",
+      "content": "Werkstudent Android Enticklung"
+    }
+  ],
+  "Languages": [
+    {
+      "time": "Spanish:",
+      "titel": "Native"
+    },
+    {
+      "time": "German:",
+      "titel": "Native"
+    },
+    {
+      "time": "English:",
+      "titel": "Fluent"
+    },
+    {
+      "time": "Portuguese:",
+      "titel": "Basic"
+    }
+  ]
+}
