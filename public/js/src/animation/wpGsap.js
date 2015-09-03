@@ -2,7 +2,7 @@
   'use strict';
   angular.module( 'wpGsap', [] )
 
-    .directive( 'wpHomeLogo', function () {
+    .directive( 'wpGsapAnimation', function () {
       var linker = function ( scope, element, attrs ) {
         var tl = new TimelineLite();
         // animation comes here
@@ -17,7 +17,6 @@
           tl.reverse();
         }
       };
-
 
       return {
         scope: true,
