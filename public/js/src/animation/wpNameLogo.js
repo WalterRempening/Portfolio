@@ -14,7 +14,7 @@
                 background: 300
               }
 
-              var nameW  = Snap.selectAll( 'g#nameW > path' ),
+              var nameW  = Snap.selectAll( 'g#nameW  path' ),
                   nameBG = Snap.select( 'g#nameBG' ),
                   delay  = 0;
 

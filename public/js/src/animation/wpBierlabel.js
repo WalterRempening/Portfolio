@@ -27,7 +27,7 @@
               //  Name Titel
               //-----------------------------------------------
               var titelB = Snap.select( 'g.TitelB' ),
-                  titelW = Snap.selectAll( 'g.TitelW > path' );
+                  titelW = Snap.selectAll( 'g.TitelW  path' );
               var delay = 0;
 
               titelW.forEach( function ( path ) {
@@ -84,6 +84,8 @@
               //-----------------------------------------------
 
               var mono = Snap.select( 'g#Mono' );
+              //var monoPaths = Snap.selectAll( 'g#Mono path' );
+              //console.log( monoPaths );
 
               mono.attr( { opacity: 0, transform: 't-150 0' } );
 
@@ -92,6 +94,28 @@
                   aniTime.mono,
                   mina.backout );
               }
+
+              //var monoDly = 0;
+
+              //monoPaths.forEach( function ( path ) {
+              //  var lenP = path.getTotalLength();
+              //  path.
+              //    attr( {
+              //      fillOpacity: 0,
+              //      //fill:'none',
+              //      strokeMitterLimit: 1,
+              //      "stroke-dasharray": lenP + " " + lenP,
+              //      "stroke-dashoffset": lenP
+              //    } );
+              //
+              //  setTimeout( function () {
+              //    path.animate( {
+              //      fillOpacity: 1,
+              //      "stroke-dashoffset": 10
+              //    }, aniTime.mono, mina.easeinout );
+              //  }, 600 + monoDly );
+              //  monoDly += 100;
+              //} );
 
 
               //-----------------------------------------------
