@@ -118,6 +118,15 @@ nav
       .idle
         color $wp-blue-h1
 
+
+@keyframes backgroundDrop
+  0% {height: 0%;}
+  100% {height: 65%;}
+
+@keyframes linksAppear
+  0% {opacity: 0; top 60px;}
+  100% {opacity: 1; top 0px;}
+
 .home-bg
   height 65%
   width 100%
@@ -126,6 +135,8 @@ nav
   position absolute
   transform skew(0deg, -10deg)
   top -170px
+  animation backgroundDrop .5s
+  animation-timing-function cubic-bezier(.21,.53,.36,.92)
 
 .container
   width 70%
@@ -168,6 +179,11 @@ nav
   .links
     width 200px
     margin 0 auto
+    position relative
+    display block
+    opacity 1
+    top 0px
+    animation linksAppear .9s
 
     ul
       padding 0px
@@ -514,7 +530,7 @@ figure button
   section
     width 50%
     margin 20px auto 50px
-  
+
     div
       margin-bottom 40px
 
@@ -568,28 +584,28 @@ figure button
     display block
     margin 0px auto
 
-//[ui-view].ng-enter, [ui-view].ng-leave,
+[ui-view].ng-enter, [ui-view].ng-leave,
 .content.ng-leave, .content.ng-enter
   position absolute
   left 0
   right 0
-  transition all .5s ease-in-out
+  transition all .4s ease-in-out
 
-//[ui-view].ng-enter,
+[ui-view].ng-enter,
 .content.ng-enter
   opacity 0
-  transform scale3d(0.5, 0.5, 0.5)
+  transform translateY(-20px)
 
-//[ui-view].ng-enter-active,
+[ui-view].ng-enter-active,
 .content.ng-enter-active
   opacity 1
-  transform scale3d(1, 1, 1)
+  transform translateY(0px)
 
-//[ui-view].ng-leave,
+[ui-view].ng-leave,
 .content.ng-leave
   opacity 1
 
-//[ui-view].ng-leave-active,
+[ui-view].ng-leave-active,
 .content.ng-leave-active
   opacity 0
 

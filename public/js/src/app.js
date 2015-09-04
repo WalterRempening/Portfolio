@@ -10,6 +10,8 @@ var app = angular.module( 'MainApp',
     'wpGsap',
     'wpSnap',
     'wpContact',
+    'wpBierlabel',
+    'wpNameLogo',
     'wpPortfolio',
     'wpWorkDetail',
     'wcFooter' ]

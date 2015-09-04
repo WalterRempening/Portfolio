@@ -19,7 +19,6 @@
         };
       } );
 
-
     } ] )
     .directive( 'wpNavigation', function () {
       return {
