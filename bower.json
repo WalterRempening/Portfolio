@@ -8,6 +8,6 @@
     "angular-animate": "latest",
     "angular-ui-router": "latest",
     "gsap" : "latest",
-    "snap.svg" : "latest"
+    "snap.svg" : "0.3.0"
   }
 }

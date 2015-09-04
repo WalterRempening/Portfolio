@@ -130,7 +130,7 @@ nav ul li .idle {
 .container .slogan .line {
   display: block;
   border: 1px solid #e4e4cf;
-  width: 300px;
+  width: 250px;
   margin: 40px auto;
 }
 .container .slogan .quote {
@@ -179,7 +179,7 @@ nav ul li .idle {
   right: 0px;
 }
 .container .links ul li:hover a {
-  color: #d2d2d2;
+  color: #000;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
@@ -213,7 +213,7 @@ nav ul li .idle {
   right: 24px;
 }
 .container .links ul a {
-  color: #000;
+  color: #797979;
   font-family: 'Futura';
   font-weight: 100;
   text-transform: uppercase;
@@ -238,6 +238,7 @@ nav ul li .idle {
 }
 .container .bio {
   font-weight: 100;
+  margin-left: 20px;
 }
 .container .bio span.opener {
   font-weight: 800;
@@ -546,7 +547,6 @@ figure button {
   text-shadow: 2px 2px #074869;
 }
 .detail section {
-  padding-top: 50px;
   margin: 0 auto;
 }
 .detail section.skew-bg {
@@ -554,6 +554,7 @@ figure button {
 }
 .detail .opening {
   width: 100%;
+  padding-top: 50px;
 }
 .detail .opening:first-letter {
   text-transform: uppercase;
@@ -583,12 +584,13 @@ figure button {
   width: 70%;
   margin: 0 auto;
   padding: 0px 0px 40px;
+  text-align: justify;
 }
 .detail h2.empty {
   display: none;
 }
 .detail h2.sub-titel {
-  font-size: 3em;
+  font-size: 2.3em;
   font-weight: 800;
   text-transform: uppercase;
   width: 80%;
@@ -663,8 +665,6 @@ figure button {
   display: block;
   margin: 0px auto;
 }
-[ui-view].ng-enter,
-[ui-view].ng-leave,
 .content.ng-leave,
 .content.ng-enter {
   position: absolute;
@@ -676,7 +676,6 @@ figure button {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-[ui-view].ng-enter,
 .content.ng-enter {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -687,7 +686,6 @@ figure button {
   -ms-transform: scale3d(0.5, 0.5, 0.5);
   transform: scale3d(0.5, 0.5, 0.5);
 }
-[ui-view].ng-enter-active,
 .content.ng-enter-active {
   opacity: 1;
   -ms-filter: none;
@@ -698,13 +696,11 @@ figure button {
   -ms-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
 }
-[ui-view].ng-leave,
 .content.ng-leave {
   opacity: 1;
   -ms-filter: none;
   filter: none;
 }
-[ui-view].ng-leave-active,
 .content.ng-leave-active {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";

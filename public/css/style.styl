@@ -145,7 +145,7 @@ nav
     .line
       display block
       border 1px solid $wp-light-ochre
-      width 300px
+      width 250px
       margin 40px auto
 
     .quote
@@ -158,10 +158,6 @@ nav
     .author
       font-size 0.6em
       color $wp-copy-text
-
-
-
-
 
   .home-logo
     width 80%
@@ -194,7 +190,7 @@ nav
             right 0px
 
           a
-            color $wp-hover-gray
+            color #000000
             transition color 0.2s ease-in-out
 
       .blop
@@ -215,7 +211,7 @@ nav
         right 24px
 
       a
-        color #000000
+        color $wp-copy-text
         font-family 'Futura'
         font-weight 100
         text-transform uppercase
@@ -234,6 +230,7 @@ nav
 
   .bio
     font-weight 100
+    margin-left 20px
 
     span.opener
       font-weight 800
@@ -466,7 +463,6 @@ figure button
     text-shadow 2px 2px $wp-dark-blue-h1
 
   section
-    padding-top 50px
     margin 0 auto
 
   section.skew-bg
@@ -474,6 +470,7 @@ figure button
 
   .opening
     width 100%
+    padding-top 50px
     &:first-letter
       first-letter-capital()
 
@@ -499,11 +496,12 @@ figure button
     width 70%
     margin 0 auto
     padding 0px 0px 40px
+    text-align justify
 
   h2.empty
     display none
   h2.sub-titel
-    font-size 3em
+    font-size 2.3em
     font-weight 800
     text-transform uppercase
     width 80%
@@ -570,24 +568,29 @@ figure button
     display block
     margin 0px auto
 
-[ui-view].ng-enter, [ui-view].ng-leave, .content.ng-leave, .content.ng-enter
+//[ui-view].ng-enter, [ui-view].ng-leave,
+.content.ng-leave, .content.ng-enter
   position absolute
   left 0
   right 0
   transition all .5s ease-in-out
 
-[ui-view].ng-enter, .content.ng-enter
+//[ui-view].ng-enter,
+.content.ng-enter
   opacity 0
   transform scale3d(0.5, 0.5, 0.5)
 
-[ui-view].ng-enter-active, .content.ng-enter-active
+//[ui-view].ng-enter-active,
+.content.ng-enter-active
   opacity 1
   transform scale3d(1, 1, 1)
 
-[ui-view].ng-leave, .content.ng-leave
+//[ui-view].ng-leave,
+.content.ng-leave
   opacity 1
 
-[ui-view].ng-leave-active, .content.ng-leave-active
+//[ui-view].ng-leave-active,
+.content.ng-leave-active
   opacity 0
 
 .works.ng-leave, .works.ng-enter
