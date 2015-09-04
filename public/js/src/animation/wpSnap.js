@@ -24,7 +24,10 @@
             var animationTime = {
               stripes: 300,
               textPath: 1500,
-              backgroundDrop: 900
+              backgroundDrop: 900,
+              titelBottom: 300,
+              bg: 500,
+              mono:300
             };
 
             //-----------------------------------------------
@@ -53,19 +56,18 @@
                 }, animationTime.textPath, mina.linear );
               }, 300 + delay );
               delay += 50;
-              console.log( delay );
             } );
 
 
             titelB.attr( {
               opacity: 0,
-              transform: 't0 50'
+              transform: 't 0 50'
             } );
 
             var animateTitelBackground = function () {
               titelB.animate( {
                 opacity: 1,
-                transform: 't0 0'
+                transform: 't 0 0'
               }, animationTime.backgroundDrop, mina.easeIn );
             };
 
@@ -73,9 +75,29 @@
             //-----------------------------------------------
             //  Background
             //-----------------------------------------------
+
+            var bg = Snap.select( 'g#BG' );
+
+            bg.attr( { opacity: 0, transform: 't0 -150' } );
+
+            var aniBG = function () {
+              bg.animate( { opacity: 1, transform: 't0 0' }, animationTime.bg,
+                mina.backout );
+            }
             //-----------------------------------------------
             //  Mono
             //-----------------------------------------------
+
+            var mono = Snap.select( 'g#Mono' );
+
+            mono.attr( { opacity: 0, transform: 't-150 0' } );
+
+            var aniMono = function () {
+              mono.animate( { opacity: 1, transform: 't0 0' }, animationTime.mono,
+                mina.backout );
+            }
+
+
             //-----------------------------------------------
             //  Bottom Stripe
             //-----------------------------------------------
@@ -133,6 +155,7 @@
               }, animationTime.stripes, mina.backout );
             };
 
+
             //-----------------------------------------------
             //  Stripe Text
             //-----------------------------------------------
@@ -141,15 +164,56 @@
                 craftW = Snap.select( '#CraftW' ),
                 codeW  = Snap.select( '#CodeW' );
 
+            codeW.attr( { opacity: 0, transform: 't -60 11' } );
+            craftW.attr( { opacity: 0, transform: 't -60 11' } );
+
+            var aniCodeW = function () {
+              codeW.animate( {
+                  transform: 't 0 0',
+                  opacity: 1
+                },
+                animationTime.titelBottom );
+            };
+
+            var aniCraftW = function () {
+              craftW.animate( {
+                  transform: 't 0 0',
+                  opacity: 1
+                },
+                animationTime.titelBottom );
+            };
+
+            //-----------Stripe Text - Background------------------
+
+            codeB.attr( { opacity: 0, transform: 't -4 -4' } );
+            craftB.attr( { opacity: 0, transform: 't -4 -4' } );
+
+            var aniCodeB = function () {
+              codeB.animate( { opacity: 1, transform: 't 0 0' },
+                animationTime.titelBottom );
+            };
+
+            var aniCraftB = function () {
+              craftB.animate( { opacity: 1, transform: 't 0 0' },
+                animationTime.titelBottom );
+            };
+
 
             //-----------------------------------------------
             //  Animiation Timeline
             //-----------------------------------------------
 
             setTimeout( animateTitelBackground, 900 );
+            setTimeout( aniBG, 500 );
+            setTimeout( aniMono, 900 );
             setTimeout( animateSt, 300 );
             setTimeout( animateSg, 500 );
             setTimeout( animateSb, 800 );
+            setTimeout( aniCodeW, 500 );
+            setTimeout( aniCraftW, 800 );
+            setTimeout( aniCodeB, 800 );
+            setTimeout( aniCraftB, 1100 );
+
 
           }
         );
