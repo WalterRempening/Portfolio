@@ -460,7 +460,7 @@ figure button {
   background-color: #bcdcec;
 }
 .red-section-bg {
-  background-color: $wp-red-red;
+  background-color: #f5dfe1;
 }
 .ochre-section-bg {
   background-color: #e4e4cf;
@@ -598,8 +598,25 @@ figure button {
 .detail .gallery-strip {
   width: 100%;
 }
-.detail .gallery-strip img {
+.detail .col-2 img {
+  width: 50%;
+}
+.detail .col-3 img {
+  width: 33.33%;
+}
+.detail .col-4 img {
   width: 25%;
+}
+.detail .col-5 img {
+  width: 20%;
+}
+.detail .small-col-5 {
+  width: 85%;
+  margin-bottom: 80px;
+}
+.detail .small-col-5 img {
+  width: 12%;
+  margin: 0px 4%;
 }
 .detail .copy {
   width: 70%;
