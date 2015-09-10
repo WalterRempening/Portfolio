@@ -77,7 +77,7 @@
         },
         {
           "titel": "Sculptures",
-          "type": "skew-bg ochre-section-bg",
+          "type": "skew-bg red-section-bg",
           "gallery": {
             "type": "strip col-4",
             "fotos": [
@@ -100,7 +100,44 @@
       ]
     },
     {
-      "titel": "GLOSUS"
+      "titel": "GLOSUS",
+      "content": [
+        {
+          "titel": "empty",
+          "type": "opening",
+          "gallery": {
+            "type": "none"
+          },
+          "copy": "The recollection of personal activity data has been greatly facilitated by the increasing amount of applications and devices that encourage users to measure their activity with the primary goal of health improvement. These devices range from mobile applications taking advantage of smart- phone sensors to dedicated fitness trackers presented as modern watches and bracelets. Apart from the analytical insights about the data obtained through classic data visualizations, it is also possible to visualize the information through physical objects also known as activity sculptures. It has been shown that activity sculptures have a positive influence in users making them feel re- warded for their active lifestyle. To further study the process of visualizing activity information into sculptures a web-based activity sculpture creator was developed. This tool takes advantage of modern web technologies and offers a platform in which users can import their data and allows them to experiment creating variations of an activity sculpture which can also be exported for 3D printing. For the development of the configurator current product customization platforms were analyzed for gathering best practices in user interface and interaction design. In order for users to have a sculpture with a high degree of data mapping variability, 4 different sculpture prototypes were developed. For the validation of the configurator an online version was released and a user study was performed. User feedback showed that our prototype was easy to operate and that the obtained sculptures were appealing and meaningful to them."
+        },
+        {
+          "titel": "Prototypes",
+          "type": "skew-bg blue-section-bg",
+          "gallery": {
+            "type": "strip col-3",
+            "fotos": [
+              "glosus/GLOSUS Backend Prototyp_Cockpit.jpg",
+              "glosus/GLOSUS Backend Prototyp_People_2_stats_2.jpg",
+              "glosus/GLOSUS Backend Prototyp_People_4.jpg",
+              "glosus/GLOSUS Backend Prototyp_Planet_1_stats.jpg",
+              "glosus/GLOSUS Backend Prototyp_Profit_5.jpg"
+            ]
+          },
+          "copy": "The recollection of personal activity data has been greatly facilitated by the increasing amount of applications and devices that encourage users to measure their activity with the primary goal of health improvement. These devices range from mobile applications taking advantage of smart- phone sensors to dedicated fitness trackers presented as modern watches and bracelets. Apart from the analytical insights about the data obtained through classic data visualizations, it is also possible to visualize the information through physical objects also known as activity sculptures. It has been shown that activity sculptures have a positive influence in users making them feel re- warded for their active lifestyle. To further study the process of visualizing activity information into sculptures a web-based activity sculpture creator was developed. This tool takes advantage of modern web technologies and offers a platform in which users can import their data and allows them to experiment creating variations of an activity sculpture which can also be exported for 3D printing. For the development of the configurator current product customization platforms were analyzed for gathering best practices in user interface and interaction design. In order for users to have a sculpture with a high degree of data mapping variability, 4 different sculpture prototypes were developed. For the validation of the configurator an online version was released and a user study was performed. User feedback showed that our prototype was easy to operate and that the obtained sculptures were appealing and meaningful to them."
+        },
+        {
+          "titel": "Plattform Prototypes",
+          "type": "",
+          "gallery": {
+            "type": "strip col-2",
+            "fotos": [
+              "glosus/GLOSUS Plattform Prototyp_S_Line.jpg",
+              "glosus/GLOSUS Plattform Prototyp_Profil.jpg"
+            ]
+          },
+          "copy": "The recollection of personal activity data has been greatly facilitated by the increasing amount of applications and devices that encourage users to measure their activity with the primary goal of health improvement. These devices range from mobile applications taking advantage of smart- phone sensors to dedicated fitness trackers presented as modern watches and bracelets. Apart from the analytical insights about the data obtained through classic data visualizations, it is also possible to visualize the information through physical objects also known as activity sculptures. It has been shown that activity sculptures have a positive influence in users making them feel re- warded for their active lifestyle. To further study the process of visualizing activity information into sculptures a web-based activity sculpture creator was developed. This tool takes advantage of modern web technologies and offers a platform in which users can import their data and allows them to experiment creating variations of an activity sculpture which can also be exported for 3D printing. For the development of the configurator current product customization platforms were analyzed for gathering best practices in user interface and interaction design. In order for users to have a sculpture with a high degree of data mapping variability, 4 different sculpture prototypes were developed. For the validation of the configurator an online version was released and a user study was performed. User feedback showed that our prototype was easy to operate and that the obtained sculptures were appealing and meaningful to them."
+        }
+      ]
     },
     {
       "titel": "Drivedeck Sport",
@@ -147,7 +184,46 @@
       ]
     },
     {
-      "titel": "ROLIC: Rolable Induction Cooking"
+      "titel": "ROLIC: Rolable Induction Cooking",
+      "content": [
+        {
+          "titel": "empty",
+          "type": "opening",
+          "gallery": {
+            "type": "stack",
+            "fotos": [
+              "rolic/placeholder.jpg"
+            ]
+          },
+          "copy": "The recollection of personal activity data has been greatly facilitated by the increasing amount of applications and devices that encourage users to measure their activity with the primary goal of health improvement. These devices range from mobile applications taking advantage of smart- phone sensors to dedicated fitness trackers presented as modern watches and bracelets. Apart from the analytical insights about the data obtained through classic data visualizations, it is also possible to visualize the information through physical objects also known as activity sculptures. It has been shown that activity sculptures have a positive influence in users making them feel re- warded for their active lifestyle. To further study the process of visualizing activity information into sculptures a web-based activity sculpture creator was developed. This tool takes advantage of modern web technologies and offers a platform in which users can import their data and allows them to experiment creating variations of an activity sculpture which can also be exported for 3D printing. For the development of the configurator current product customization platforms were analyzed for gathering best practices in user interface and interaction design. In order for users to have a sculpture with a high degree of data mapping variability, 4 different sculpture prototypes were developed. For the validation of the configurator an online version was released and a user study was performed. User feedback showed that our prototype was easy to operate and that the obtained sculptures were appealing and meaningful to them."
+        },
+        {
+          "titel": "Concept",
+          "type": "",
+          "gallery": {
+            "type": "stack",
+            "fotos": [
+              "rolic/rolic_1.jpg",
+              "rolic/rolic_2.jpg"
+            ]
+          },
+          "copy": "The recollection of personal activity data has been greatly facilitated by the increasing amount of applications and devices that encourage users to measure their activity with the primary goal of health improvement. These devices range from mobile applications taking advantage of smart- phone sensors to dedicated fitness trackers presented as modern watches and bracelets. Apart from the analytical insights about the data obtained through classic data visualizations, it is also possible to visualize the information through physical objects also known as activity sculptures. It has been shown that activity sculptures have a positive influence in users making them feel re- warded for their active lifestyle. To further study the process of visualizing activity information into sculptures a web-based activity sculpture creator was developed. This tool takes advantage of modern web technologies and offers a platform in which users can import their data and allows them to experiment creating variations of an activity sculpture which can also be exported for 3D printing. For the development of the configurator current product customization platforms were analyzed for gathering best practices in user interface and interaction design. In order for users to have a sculpture with a high degree of data mapping variability, 4 different sculpture prototypes were developed. For the validation of the configurator an online version was released and a user study was performed. User feedback showed that our prototype was easy to operate and that the obtained sculptures were appealing and meaningful to them."
+        },
+        {
+          "titel": "Hardware Prototyping",
+          "type": "skew-bg red-section-bg",
+          "gallery": {
+            "type": "strip col-4",
+            "fotos": [
+              "rolic/rolic_makingof_1.jpg",
+              "rolic/rolic_makingof_2.jpg",
+              "rolic/rolic_makingof_3.jpg",
+              "rolic/rolic_makingof_4.jpg"
+            ]
+          },
+          "copy": "The recollection of personal activity data has been greatly facilitated by the increasing amount of applications and devices that encourage users to measure their activity with the primary goal of health improvement. These devices range from mobile applications taking advantage of smart- phone sensors to dedicated fitness trackers presented as modern watches and bracelets. Apart from the analytical insights about the data obtained through classic data visualizations, it is also possible to visualize the information through physical objects also known as activity sculptures. It has been shown that activity sculptures have a positive influence in users making them feel re- warded for their active lifestyle. To further study the process of visualizing activity information into sculptures a web-based activity sculpture creator was developed. This tool takes advantage of modern web technologies and offers a platform in which users can import their data and allows them to experiment creating variations of an activity sculpture which can also be exported for 3D printing. For the development of the configurator current product customization platforms were analyzed for gathering best practices in user interface and interaction design. In order for users to have a sculpture with a high degree of data mapping variability, 4 different sculpture prototypes were developed. For the validation of the configurator an online version was released and a user study was performed. User feedback showed that our prototype was easy to operate and that the obtained sculptures were appealing and meaningful to them."
+        }
+      ]
     }
   ]
 }
