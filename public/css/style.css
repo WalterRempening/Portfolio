@@ -47,6 +47,11 @@ md-content.header-bg {
   z-index: 2;
   top: -100px;
 }
+@media (max-width: 500px) {
+  md-content.header-bg {
+    height: 220px;
+  }
+}
 nav {
   width: 60%;
   height: 200px;
@@ -57,9 +62,21 @@ nav {
   -ms-transform: skew(0deg, 5deg);
   transform: skew(0deg, 5deg);
 }
+@media (max-width: 500px) {
+  nav {
+    width: 92%;
+    height: 33%;
+  }
+}
 nav .logo {
   width: 200px;
   height: 200px;
+}
+@media (max-width: 500px) {
+  nav .logo {
+    width: 100px;
+    height: 100px;
+  }
 }
 nav .logo a {
   display: block;
@@ -71,6 +88,13 @@ nav ul li {
   text-transform: uppercase;
   font-size: 1.4em;
   font-weight: 800;
+}
+@media (max-width: 500px) {
+  nav ul li {
+    font-size: 0.8em;
+    margin: 5px 5px;
+    height: 30px;
+  }
 }
 nav ul li a {
   color: #bae3f9;
@@ -122,12 +146,22 @@ nav ul li .idle {
   -ms-animation-timing-function: cubic-bezier(0.21, 0.53, 0.36, 0.92);
   animation-timing-function: cubic-bezier(0.21, 0.53, 0.36, 0.92);
 }
+@media (max-width: 500px) {
+  .home-bg {
+    height: 72%;
+  }
+}
 .container {
   width: 70%;
   min-height: 100%;
   margin: 0 auto;
   padding: 0px 0px 30px;
   position: relative;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
 }
 .container .slogan {
   font-size: 2.3em;
@@ -137,11 +171,22 @@ nav ul li .idle {
   width: 70%;
   margin: 0 auto 70px;
 }
+@media (max-width: 500px) {
+  .container .slogan {
+    font-size: 1.2em;
+  }
+}
 .container .slogan .line {
   display: block;
   border: 1px solid #e4e4cf;
   width: 250px;
   margin: 40px auto;
+}
+@media (max-width: 500px) {
+  .container .slogan .line {
+    margin: 10px auto;
+    width: 170px;
+  }
 }
 .container .slogan .quote {
   font-style: normal;
@@ -159,6 +204,12 @@ nav ul li .idle {
   margin: 7% auto 0px;
   height: 550px;
   display: block;
+}
+@media (max-width: 500px) {
+  .container .home-logo {
+    height: 100%;
+    width: 88%;
+  }
 }
 .container .links {
   width: 200px;
@@ -257,6 +308,14 @@ nav ul li .idle {
   -moz-background-size: contain;
   background-size: contain;
 }
+@media (max-width: 500px) {
+  .container .profile {
+    height: 250px;
+    width: 250px;
+    max-width: 250px;
+    margin: 20px auto;
+  }
+}
 .container .bio {
   font-weight: 100;
   margin-left: 20px;
@@ -269,12 +328,31 @@ nav ul li .idle {
   padding-top: 20px;
   margin-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .container .bio span.opener {
+    width: 90%;
+    padding: 0px;
+    margin: 0px auto 20px;
+  }
+}
 .container .bio p {
   color: #797979;
   padding-right: 20px;
 }
+@media (max-width: 500px) {
+  .container .bio p {
+    padding-right: 0px;
+    width: 95%;
+    font-size: 0.9em;
+  }
+}
 .container .cv {
   margin: 0px 0px 0px 40px;
+}
+@media (max-width: 500px) {
+  .container .cv {
+    margin-left: 0px;
+  }
 }
 .container .cv h2 {
   font-weight: 100;
@@ -282,9 +360,19 @@ nav ul li .idle {
 .container .cv div {
   padding: 5px 20px;
 }
+@media (max-width: 500px) {
+  .container .cv div {
+    padding: 0 0 0 10px;
+  }
+}
 .container .cv span {
   margin: 5px 0px 0px 0px;
   color: #3c3c3c;
+}
+@media (max-width: 500px) {
+  .container .cv span {
+    font-size: 0.9em;
+  }
 }
 .container .cv .year {
   font-style: italic;
@@ -292,6 +380,12 @@ nav ul li .idle {
   color: #a5a4a4;
   text-align: right;
   padding-right: 30px;
+}
+@media (max-width: 500px) {
+  .container .cv .year {
+    padding-right: 10px;
+    font-size: 0.7em;
+  }
 }
 .grid {
   margin: 40px auto 10px;
@@ -316,6 +410,14 @@ nav ul li .idle {
   z-index: 10;
   width: 100%;
   height: 100%;
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+}
+@media (max-width: 500px) {
+  .grid a figure svg {
+    height: 260px;
+  }
 }
 .grid a figure button {
   position: absolute;
@@ -385,6 +487,11 @@ nav ul li .idle {
   height: 100%;
   text-align: left;
 }
+@media (max-width: 500px) {
+  .grid a figure figcaption {
+    top: -54px;
+  }
+}
 .grid a figure figcaption h2 {
   font-size: 2.4em;
   margin: 15px 0 5px 0;
@@ -403,6 +510,11 @@ nav ul li .idle {
   -ms-transition: -ms-transform 0.3s;
   transition: transform 0.3s;
 }
+@media (max-width: 500px) {
+  .grid a figure figcaption h2 {
+    font-size: 1.2em;
+  }
+}
 .grid a figure figcaption h2,
 .grid a figure figcaption p {
   -webkit-transform: translateY(50px);
@@ -412,9 +524,20 @@ nav ul li .idle {
   transform: translateY(50px);
   padding-left: 30px;
 }
+@media (max-width: 500px) {
+  .grid a figure figcaption h2,
+  .grid a figure figcaption p {
+    padding-left: 10px;
+  }
+}
 .grid a figure figcaption p {
   margin-top: 5px;
   font-size: 1.2em;
+}
+@media (max-width: 500px) {
+  .grid a figure figcaption p {
+    font-size: 0.6em;
+  }
 }
 figcaption,
 h2,
@@ -531,11 +654,21 @@ figure button {
   -moz-background-size: cover;
   background-size: cover;
 }
+@media (max-width: 500px) {
+  .detail .sculptures {
+    background-position-x: 50%;
+  }
+}
 .detail .creative {
   background: url("../img/portfolio/sculptures/Sculptures-cover.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+}
+@media (max-width: 500px) {
+  .detail .creative {
+    background-position-x: 50%;
+  }
 }
 .detail .drivedeck {
   background: url("../img/portfolio/drivedeck/Drivedeck-cover.jpg") no-repeat;
@@ -543,17 +676,32 @@ figure button {
   -moz-background-size: cover;
   background-size: cover;
 }
+@media (max-width: 500px) {
+  .detail .drivedeck {
+    background-position-x: 50%;
+  }
+}
 .detail .rolic {
   background: url("../img/portfolio/rolic/Rolic-cover.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
 }
+@media (max-width: 500px) {
+  .detail .rolic {
+    background-position-x: 50%;
+  }
+}
 .detail .glosus {
   background: url("../img/portfolio/glosus/Glosus-cover.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+}
+@media (max-width: 500px) {
+  .detail .glosus {
+    background-position-x: 50%;
+  }
 }
 .detail .work-titel {
   font-size: 4.5em;
@@ -566,6 +714,11 @@ figure button {
   padding-top: 70px;
   display: inline-block;
   text-shadow: 2px 2px #074869;
+}
+@media (max-width: 500px) {
+  .detail .work-titel {
+    font-size: 2.6em;
+  }
 }
 .detail section {
   margin: 0 auto;
@@ -592,6 +745,11 @@ figure button {
   margin: 0 auto;
   padding-bottom: 70px;
 }
+@media (max-width: 500px) {
+  .detail .gallery-stack {
+    width: 90%;
+  }
+}
 .detail .gallery-stack img {
   width: 100%;
 }
@@ -607,8 +765,18 @@ figure button {
 .detail .col-4 img {
   width: 25%;
 }
+@media (max-width: 500px) {
+  .detail .col-4 img {
+    width: 50%;
+  }
+}
 .detail .col-5 img {
   width: 20%;
+}
+@media (max-width: 500px) {
+  .detail .col-5 img {
+    width: 50%;
+  }
 }
 .detail .small-col-5 {
   width: 85%;
@@ -624,6 +792,12 @@ figure button {
   padding: 0px 0px 40px;
   text-align: justify;
 }
+@media (max-width: 500px) {
+  .detail .copy {
+    width: 85%;
+    font-size: 0.9em;
+  }
+}
 .detail h2.empty {
   display: none;
 }
@@ -637,9 +811,20 @@ figure button {
   position: relative;
   top: -30px;
 }
+@media (max-width: 500px) {
+  .detail h2.sub-titel {
+    font-size: 1.6em;
+  }
+}
 .contact section {
   width: 50%;
   margin: 20px auto 50px;
+}
+@media (max-width: 500px) {
+  .contact section {
+    width: 80%;
+    text-align: justify;
+  }
 }
 .contact section div {
   margin-bottom: 40px;
@@ -648,9 +833,19 @@ figure button {
   font-size: 3em;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .contact section h1 {
+    font-size: 1.5em;
+  }
+}
 .contact section span {
   text-align: center;
   display: block;
+}
+@media (max-width: 500px) {
+  .contact section span {
+    font-size: 0.9em;
+  }
 }
 .contact section span.medium {
   font-size: 1.2em;
@@ -661,6 +856,11 @@ figure button {
   width: 20%;
   margin: 0 auto 10px;
   border-bottom: 2px solid #eaeaea;
+}
+@media (max-width: 500px) {
+  .contact section span.medium {
+    font-size: 0.9em;
+  }
 }
 .contact section span.medium,
 .contact section a {
@@ -678,6 +878,11 @@ figure button {
   margin: 0 auto;
   display: block;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .contact section a {
+    font-size: 1.2em;
+  }
 }
 .contact section a:hover {
   color: #d2d2d2;
@@ -702,6 +907,11 @@ figure button {
   text-align: center;
   display: block;
   margin: 0px auto;
+}
+@media (max-width: 500px) {
+  .footer span {
+    font-size: 0.4em;
+  }
 }
 [ui-view].ng-enter,
 [ui-view].ng-leave,

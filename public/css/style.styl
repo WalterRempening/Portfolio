@@ -75,15 +75,26 @@ md-content.header-bg
   z-index 2
   top -100px
 
+  @media (max-width: 500px)
+    height 220px
+
 nav
   width 60%
   height 200px
   margin 105px auto 0px
   transform skew(0deg, 5deg)
 
+  @media (max-width: 500px)
+    width 92%
+    height 33%
+
   .logo
     width 200px
     height 200px
+
+    @media (max-width: 500px)
+      width 100px
+      height 100px
 
     a
       display block
@@ -97,6 +108,11 @@ nav
       text-transform uppercase
       font-size 1.4em
       font-weight 800
+
+      @media (max-width: 500px)
+        font-size 0.8em
+        margin 5px 5px
+        height 30px
 
       a
         color $wp-blue-h1
@@ -138,12 +154,20 @@ nav
   animation backgroundDrop .5s
   animation-timing-function cubic-bezier(.21,.53,.36,.92)
 
+  @media (max-width: 500px)
+    height 72%
+
+
 .container
   width 70%
   min-height 100%
   margin 0 auto
   padding 0px 0px 30px
   position relative
+
+  @media (max-width: 500px)
+    width 100%
+
 
   .slogan
     font-size 2.3em
@@ -153,11 +177,18 @@ nav
     width 70%
     margin 0 auto 70px
 
+    @media (max-width: 500px)
+      font-size 1.2em
+
     .line
       display block
       border 1px solid $wp-light-ochre
       width 250px
       margin 40px auto
+
+      @media (max-width: 500px)
+        margin 10px auto
+        width 170px
 
     .quote
       font-style normal
@@ -165,6 +196,7 @@ nav
       margin-top 20px
       font-weight bold
       margin-bottom 20px
+
 
     .author
       font-size 0.6em
@@ -175,6 +207,10 @@ nav
     margin 7% auto 0px
     height 550px
     display block
+
+    @media (max-width: 500px)
+      height 100%
+      width 88%
 
   .links
     width 200px
@@ -244,6 +280,12 @@ nav
     background-repeat no-repeat
     background-size contain
 
+    @media (max-width: 500px)
+      height 250px
+      width 250px
+      max-width 250px
+      margin 20px auto
+
   .bio
     font-weight 100
     margin-left 20px
@@ -256,12 +298,25 @@ nav
       padding-top 20px
       margin-bottom 20px
 
+      @media (max-width: 500px)
+        width 90%
+        padding 0px
+        margin 0px auto 20px
+
     p
       color $wp-copy-text
       padding-right: 20px
 
+      @media (max-width: 500px)
+        padding-right 0px
+        width 95%
+        font-size 0.9em
+
   .cv
     margin 0px 0px 0px 40px
+
+    @media (max-width: 500px)
+      margin-left 0px
 
     h2
       font-weight 100
@@ -269,9 +324,15 @@ nav
     div
       padding 5px 20px
 
+      @media (max-width: 500px)
+        padding 0 0 0 10px
+
     span
       margin 5px 0px 0px 0px
       color #3C3C3C
+
+      @media (max-width: 500px)
+        font-size 0.9em
 
     .year
       font-style: italic
@@ -279,6 +340,10 @@ nav
       color #A5A4A4
       text-align right
       padding-right 30px
+
+      @media (max-width: 500px)
+        padding-right 10px
+        font-size 0.7em
 
 .grid
   margin: 40px auto 10px;
@@ -303,6 +368,11 @@ nav
         z-index 10
         width 100%
         height 100%
+        opacity 0.9
+
+        @media (max-width: 500px)
+          height 260px
+
 
       button
         position absolute
@@ -353,6 +423,9 @@ nav
         height 100%
         text-align left
 
+        @media (max-width: 500px)
+          top -54px
+
         h2
           font-size 2.4em
           margin 15px 0 5px 0
@@ -363,12 +436,22 @@ nav
           transform translateY(50px)
           transition transform 0.3s
 
+          @media (max-width: 500px)
+            font-size 1.2em
+
         h2, p
           transform translateY(50px)
           padding-left 30px
+
+          @media (max-width: 500px)
+            padding-left 10px
         p
           margin-top 5px
           font-size 1.2em
+
+          @media (max-width: 500px)
+            font-size 0.6em
+
 
 figcaption, h2, p,
 figure button
@@ -453,18 +536,33 @@ figure button
   .sculptures
     background url("../img/portfolio/sculptures/Sculptures-cover.jpg") no-repeat
     background-size cover
+
+    @media (max-width: 500px)
+      background-position-x 50%
   .creative
     background url("../img/portfolio/sculptures/Sculptures-cover.jpg") no-repeat
     background-size cover
+
+    @media (max-width: 500px)
+      background-position-x 50%
   .drivedeck
     background url("../img/portfolio/drivedeck/Drivedeck-cover.jpg") no-repeat
     background-size cover
+
+    @media (max-width: 500px)
+      background-position-x 50%
   .rolic
     background url("../img/portfolio/rolic/Rolic-cover.jpg") no-repeat
     background-size cover
+
+    @media (max-width: 500px)
+      background-position-x 50%
   .glosus
     background url("../img/portfolio/glosus/Glosus-cover.jpg") no-repeat
     background-size cover
+
+    @media (max-width: 500px)
+      background-position-x 50%
 
   .work-titel
     font-size 4.5em
@@ -477,6 +575,9 @@ figure button
     padding-top 70px
     display inline-block
     text-shadow 2px 2px $wp-dark-blue-h1
+
+    @media (max-width: 500px)
+      font-size 2.6em
 
   section
     margin 0 auto
@@ -498,6 +599,9 @@ figure button
     margin 0 auto
     padding-bottom 70px
 
+    @media (max-width: 500px)
+      width 90%
+
     img
       width 100%
 
@@ -514,9 +618,13 @@ figure button
   .col-4
     img
       width 25%
+      @media (max-width: 500px)
+        width 50%
   .col-5
     img
       width 20%
+      @media (max-width: 500px)
+        width 50%
 
   .small-col-5
     width 85%
@@ -532,6 +640,10 @@ figure button
     padding 0px 0px 40px
     text-align justify
 
+    @media (max-width: 500px)
+      width 85%
+      font-size 0.9em
+
   h2.empty
     display none
   h2.sub-titel
@@ -544,10 +656,17 @@ figure button
     position relative
     top -30px
 
+    @media (max-width: 500px)
+      font-size 1.6em
+
 .contact
   section
     width 50%
     margin 20px auto 50px
+
+    @media (max-width: 500px)
+      width 80%
+      text-align justify
 
     div
       margin-bottom 40px
@@ -556,9 +675,15 @@ figure button
       font-size 3em
       text-align center
 
+      @media (max-width: 500px)
+        font-size 1.5em
+
     span
       text-align center
       display block
+
+      @media (max-width: 500px)
+        font-size 0.9em
 
     span.medium
       font-size 1.2em
@@ -569,6 +694,9 @@ figure button
       width 20%
       margin 0 auto 10px
       border-bottom 2px solid #EAEAEA
+
+      @media (max-width: 500px)
+        font-size 0.9em
 
     span.medium, a
       text-transform uppercase
@@ -581,6 +709,9 @@ figure button
       margin 0 auto
       display block
       text-align center
+
+      @media (max-width: 500px)
+        font-size 1.2em
 
       &:hover
         color $wp-hover-gray
@@ -601,6 +732,9 @@ figure button
     text-align center
     display block
     margin 0px auto
+
+    @media (max-width: 500px)
+      font-size 0.4em
 
 [ui-view].ng-enter, [ui-view].ng-leave,
 .content.ng-leave, .content.ng-enter
