@@ -47,6 +47,9 @@
           "gallery": {
             "type": "strip col-4",
             "fotos": [
+              "sculptures/3DGraph.jpg",
+              "sculptures/ActivityLandscape.jpg",
+              "sculptures/ActivityFlora.jpg",
               "sculptures/ActivityVase.jpg"
             ]
           },
@@ -56,9 +59,12 @@
           "titel": "Configurator Prototypes",
           "type": "skew-bg blue-section-bg",
           "gallery": {
-            "type": "strip col-5",
+            "type": "strip col-4",
             "fotos": [
-              "sculptures/Configurator-UI-2_01.jpg"
+              "sculptures/Configurator-UI_02.jpg",
+              "sculptures/Configurator-UI_04.jpg",
+              "sculptures/Configurator-UI-2_01.jpg",
+              "sculptures/Configurator-UI-3.jpg"
             ]
           },
           "copy": "Elit blacksmith hold steady keyboardist? Cardinal richelieu boogie nights lip warmer? Tom selleck dick van dyke socially mobile bad guy cunning like a fox educated village people, des lynam socially mobile grooming village people tom selleck dick van dyke tricky sneezes bad guy cunning like a fox educated Freddie mercury, cunning like a fox class definer des lynam tricky sneezes tom selleck bad guy socially mobile village people dick van dyke Freddie mercury grooming freestyle educated got milk. <br/> Old west sheriff groucho-a-like toothbrush furry facial friend boogie nights face mop, brad pitt super mario boogie nights toothbrush ding-dong furry facial friend terry thomas old west sheriff grooming barber shop quartet groucho-a-like soup strainer face mop des lynam, boogie nights blacksmith super mario groucho-a-like toothbrush d’artagnan barber shop quartet face mop furry facial friend boogie nights theodore roosevelt brad pitt old west sheriff terry thomas grooming Leonine gunslinger des lynam cunning like a fox bad guy ding-dong soup strainer. Cripes um yesbaby el snort dali?"
@@ -69,8 +75,8 @@
           "gallery": {
             "type": "stack",
             "fotos": [
-              "sculptures/configurator-ui_1.png",
-              "sculptures/configurator-ui_2.png"
+              "sculptures/configurator-ui1.png",
+              "sculptures/configurator-ui2.png"
             ]
           },
           "copy": "Elit blacksmith hold steady keyboardist? Cardinal richelieu boogie nights lip warmer? Tom selleck dick van dyke socially mobile bad guy cunning like a fox educated village people, des lynam socially mobile grooming village people tom selleck dick van dyke tricky sneezes bad guy cunning like a fox educated Freddie mercury, cunning like a fox class definer des lynam tricky sneezes tom selleck bad guy socially mobile village people dick van dyke Freddie mercury grooming freestyle educated got milk. <br/> Old west sheriff groucho-a-like toothbrush furry facial friend boogie nights face mop, brad pitt super mario boogie nights toothbrush ding-dong furry facial friend terry thomas old west sheriff grooming barber shop quartet groucho-a-like soup strainer face mop des lynam, boogie nights blacksmith super mario groucho-a-like toothbrush d’artagnan barber shop quartet face mop furry facial friend boogie nights theodore roosevelt brad pitt old west sheriff terry thomas grooming Leonine gunslinger des lynam cunning like a fox bad guy ding-dong soup strainer. Cripes um yesbaby el snort dali?"
@@ -93,7 +99,10 @@
           "titel": "User Study",
           "type": "",
           "gallery": {
-            "type": "none"
+            "type": "stack",
+            "fotos":[
+              "sculptures/eye-tracking_heatmap.jpg"
+            ]
           },
           "copy": "Elit blacksmith hold steady keyboardist? Cardinal richelieu boogie nights lip warmer? Tom selleck dick van dyke socially mobile bad guy cunning like a fox educated village people, des lynam socially mobile grooming village people tom selleck dick van dyke tricky sneezes bad guy cunning like a fox educated Freddie mercury, cunning like a fox class definer des lynam tricky sneezes tom selleck bad guy socially mobile village people dick van dyke Freddie mercury grooming freestyle educated got milk."
         }

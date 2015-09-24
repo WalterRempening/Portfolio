@@ -68,7 +68,7 @@ nav {
     height: 33%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   nav {
     width: 95%;
     height: 180px;
@@ -107,7 +107,7 @@ nav ul li {
     height: 30px;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   nav ul li {
     margin: 10px 10px;
     font-size: 1.2em;
@@ -168,7 +168,7 @@ nav ul li .idle {
     height: 72%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .home-bg {
     height: 65%;
   }
@@ -185,7 +185,7 @@ nav ul li .idle {
     width: 100%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .container {
     width: 90%;
   }
@@ -203,7 +203,7 @@ nav ul li .idle {
     font-size: 1.2em;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .container .slogan {
     font-size: 1.6em;
   }
@@ -220,7 +220,7 @@ nav ul li .idle {
     width: 170px;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .container .slogan .line {
     width: 200px;
   }
@@ -248,7 +248,7 @@ nav ul li .idle {
     width: 88%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .container .home-logo {
     width: 100%;
   }
@@ -358,7 +358,7 @@ nav ul li .idle {
     margin: 20px auto;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .container .profile {
     height: 350px;
     width: 350px;
@@ -388,7 +388,7 @@ nav ul li .idle {
     font-size: 1.1em;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .container .bio span.opener {
     width: 400px;
     margin: 0px auto 20px;
@@ -479,7 +479,7 @@ nav ul li .idle {
     height: 260px;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .grid a figure svg {
     height: 400px;
   }
@@ -557,7 +557,7 @@ nav ul li .idle {
     top: -54px;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .grid a figure figcaption {
     top: -47px;
   }
@@ -585,7 +585,7 @@ nav ul li .idle {
     font-size: 1.2em;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .grid a figure figcaption h2 {
     font-size: 1.9em;
   }
@@ -614,7 +614,7 @@ nav ul li .idle {
     font-size: 0.6em;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .grid a figure figcaption p {
     font-size: 1em;
   }
@@ -739,7 +739,7 @@ figure button {
     background-position-x: 50%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .detail .sculptures {
     background-position-x: 50%;
   }
@@ -755,7 +755,7 @@ figure button {
     background-position-x: 50%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .detail .creative {
     background-position-x: 50%;
   }
@@ -771,7 +771,7 @@ figure button {
     background-position-x: 50%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .detail .drivedeck {
     background-position-x: 50%;
   }
@@ -787,7 +787,7 @@ figure button {
     background-position-x: 50%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .detail .rolic {
     background-position-x: 50%;
   }
@@ -803,7 +803,7 @@ figure button {
     background-position-x: 50%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .detail .glosus {
     background-position-x: 50%;
   }
@@ -861,6 +861,9 @@ figure button {
 .detail .gallery-strip {
   width: 100%;
 }
+.detail .gallery-strip img {
+  vertical-align: top;
+}
 .detail .col-2 img {
   width: 50%;
 }
@@ -875,7 +878,7 @@ figure button {
     width: 50%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .detail .col-4 img {
     width: 50%;
   }
@@ -888,7 +891,7 @@ figure button {
     width: 50%;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .detail .col-5 img {
     width: 50%;
   }
@@ -941,7 +944,7 @@ figure button {
     text-align: justify;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .contact section {
     width: 75%;
   }
@@ -958,7 +961,7 @@ figure button {
     font-size: 1.5em;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .contact section h1 {
     font-size: 2.3em;
   }
@@ -972,7 +975,7 @@ figure button {
     font-size: 0.9em;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .contact section span {
     font-size: 1.1em;
   }
@@ -1014,7 +1017,7 @@ figure button {
     font-size: 1.2em;
   }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   .contact section a {
     font-size: 1.5em;
   }
