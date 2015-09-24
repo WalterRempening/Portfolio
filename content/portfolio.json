@@ -61,8 +61,8 @@
           "gallery": {
             "type": "strip col-4",
             "fotos": [
-              "sculptures/Configurator-UI_02.jpg",
               "sculptures/Configurator-UI_04.jpg",
+              "sculptures/Configurator-UI_02.jpg",
               "sculptures/Configurator-UI-2_01.jpg",
               "sculptures/Configurator-UI-3.jpg"
             ]
