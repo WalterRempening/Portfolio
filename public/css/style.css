@@ -362,6 +362,7 @@ nav ul li .idle {
   .container img.profile {
     width: 350px;
     max-width: 350px;
+    height: 351px;
     margin: 20px auto;
   }
 }
@@ -983,7 +984,7 @@ figure button {
   font-weight: 800;
   text-transform: uppercase;
   width: 80%;
-  margin: 30px auto 20px;
+  margin: 60px auto 10px;
   text-align: center;
   position: relative;
   top: -30px;

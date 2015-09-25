@@ -2,7 +2,8 @@
   "keys": [
       "Education",
       "Professional Experience",
-      "Languages"
+      "Languages",
+      "Tools of the Trade"
   ],
   "Education": [
     {
@@ -64,6 +65,36 @@
     {
       "time": "Portuguese:",
       "titel": "Basic"
+    }
+  ],
+  "Tools of the Trade" :[
+    {
+      "time":"Programming Languages",
+      "titel":"Java, C#, JavaScript, Clojure"
+    },
+    {
+      "time":"Web Technologies",
+      "titel": "HTML 5, CSS3, WebGL (Threejs), SVG, npm, bower"
+    },
+    {
+      "time":"Game Engines & Creative Frameworks",
+      "titel": "Unity3D, LibGdx, Processing, P5.js, Max/Msp, OpenFrameworks"
+    },
+    {
+      "time":"Phyisical Prototyping",
+      "titel": "Arduino, Teensy, Raspberry Pi"
+    },
+    {
+      "time":"IDEs and Text Editors",
+      "titel": "Eclipse, IntelliJ, Webstorm, Sublime Text, MacVim"
+    },
+    {
+      "time":"Version Control",
+      "titel": "Git, SVN"
+    },
+    {
+      "time":"Software Packages",
+      "titel": "Photoshop, Illustrator, Ableton Live, Microsoft Office"
     }
   ]
 }
