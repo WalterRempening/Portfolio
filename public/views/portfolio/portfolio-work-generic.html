@@ -9,7 +9,7 @@
       <div class="container">
         <div class="copy">
           <h2 class="sub-titel {{block.titel}}">{{block.titel}}</h2>
-          <span>{{block.copy}}</span>
+          <span ng-bind-html= "block.copy | renderHtmlCorrectly"></span>
         </div>
       </div>
       <section class="gallery-{{block.gallery.type}}">
