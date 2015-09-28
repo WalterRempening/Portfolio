@@ -219,22 +219,22 @@
               "rolic/placeholder.jpg"
             ]
           },
-          "copy": ""
+          "copy": "The goal of our interaction design class during my master’s program was to come up with new interaction concepts for kitchen utensils of the future. The class was a cooperation between the faculty of Media Informatics at the LMU and the Industrial Design Faculty at the TUM. Every team was a mixture of Human-Computer Interaction and Industrial Design students. This provided an interdisciplinary atmosphere to the curse as both faculties collaborated to ideate new creative products and interaction concepts. <br>"
         },
         {
           "titel": "Concept",
           "type": "",
           "gallery": {
-            "type": "stack",
+            "type": "strip col-2",
             "fotos": [
               "rolic/rolic_1.jpg",
               "rolic/rolic_2.jpg"
             ]
           },
-          "copy": ""
+          "copy": "In our team we brainstormed for different kitchen devices that could be rethought and finally opted for a relabel induction cooking top. The main motivation for ROLIC is to provide small apartments a cooking top that who’s size can be changed dynamically saving space in the kitchen. The ROLIC cooking top consists of a panel from which the induction top can be rolled out for cooking. The surface of the cooking top is made out a flexible material composed of several smaller induction heaters. When a pan is placed on top of the surface it the induction heaters detect where the pan is placed and a ring of LED lights will light the pan. Instantly a button will pop out of the panel allowing the user to adjust the heat. After the user is finished cooking he can roll the surface back into the panel, clearing the used space for other purposes."
         },
         {
-          "titel": "Hardware Prototyping",
+          "titel": "Physical Prototyping",
           "type": "skew-bg red-section-bg",
           "gallery": {
             "type": "strip col-4",
@@ -245,7 +245,7 @@
               "rolic/rolic_makingof_4.jpg"
             ]
           },
-          "copy": ""
+          "copy": "During the project my main task was implementing the interaction concepts to the prototype the industrial design colleagues constructed. The whole project was developed using a Teensy 3.2 board, which is pretty similar to Arduino boards but with extended functionality and greater specs. For the prototype we only had two active areas with several RGB LEDs and pressure sensors. When a top was placed over these areas the pressure sensor registered the pressure and if it went over a defined threshold it activated an LED light animation indicating the user the top detected the pan. At the moment of placing the pan on the panel a servo motor brought a knob up with several LEDs and a potentiometer for dialing the heat."
         }
       ]
     }
