@@ -15,14 +15,14 @@
       "cover": "glosus/Glosus-cover.jpg"
     },
     {
-      "titel": "Drivedeck Sport",
+      "titel": "Drivedeck",
       "description": "Your driving analytics companion",
       "class": "drivedeck",
       "color": "#FF4C59",
       "cover": "drivedeck/Drivedeck-cover.jpg"
     },
     {
-      "titel": "ROLIC: Rolable Induction Cooking",
+      "titel": "ROLIC: Rollable Induction Cooking",
       "description": "Physical prototyping of kitchen workspaces of the future",
       "class": "rolic",
       "color": "#FFCD57",
@@ -208,18 +208,15 @@
       ]
     },
     {
-      "titel": "ROLIC: Rolable Induction Cooking",
+      "titel": "ROLIC: Rollable Induction Cooking",
       "content": [
         {
           "titel": "empty",
           "type": "opening",
           "gallery": {
-            "type": "stack",
-            "fotos": [
-              "rolic/placeholder.jpg"
-            ]
+            "type": "none"
           },
-          "copy": "The goal of our interaction design class during my master’s program was to come up with new interaction concepts for kitchen utensils of the future. The class was a cooperation between the faculty of Media Informatics at the LMU and the Industrial Design Faculty at the TUM. Every team was a mixture of Human-Computer Interaction and Industrial Design students. This provided an interdisciplinary atmosphere to the curse as both faculties collaborated to ideate new creative products and interaction concepts. <br>"
+          "copy": "The goal of our interaction design class during my master’s program was to come up with new interaction concepts for kitchen utensils of the future. The class was a cooperation between the faculty of Media Informatics at the LMU and the Industrial Design Faculty at the TUM. Every team was a mixture of Human-Computer Interaction and Industrial Design students. This provided an interdisciplinary atmosphere to the curse as both faculties collaborated to ideate new creative products and interaction concepts.<br><br><iframe src='https://player.vimeo.com/video/140769726'webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         },
         {
           "titel": "Concept",
