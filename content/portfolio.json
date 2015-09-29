@@ -39,7 +39,7 @@
           "gallery": {
             "type": "none"
           },
-          "copy": "To conclude my studies in Human Computer Interaction I designed and developed a web based Activity Sculpture Configurator. The project lasted for 6 months in which extensive research about the subject was performed and the configurator was designed, developed and tested. <br><br> The recollection of personal activity data has been greatly facilitated by the increasing amount of applications and devices that encourage users to measure their activity with the primary goal of health improvement. These devices range from mobile applications taking advantage of smartphone sensors to dedicated fitness trackers presented as modern watches and bracelets. Apart from the analytical insights about the data obtained through classic data visualizations, it is also possible to visualize the information through physical objects also known as activity sculptures. It has been shown that activity sculptures have a positive influence in users making them feel rewarded for their active lifestyle. To further study the process of visualizing activity information into sculptures a web-based activity sculpture creator was developed. This tool takes advantage of modern web technologies and offers a platform in which users can import their data and allows them to experiment creating variations of an activity sculpture which can also be exported for 3D printing. For the development of the configurator current product customization platforms were analyzed for gathering best practices in user interface and interaction design. In order for users to have a sculpture with a high degree of data mapping variability, 4 different sculpture prototypes were developed. For the validation of the configurator an online version was released and a user study was performed. User feedback showed that our prototype was easy to operate and that the obtained sculptures were appealing and meaningful to them."
+          "copy": "To conclude my studies in Human Computer Interaction I designed and developed a web based activity sculpture configurator. The project lasted for 6 months in which extensive research about the subject was performed and the configurator was designed, developed and tested. <br><br> The recollection of personal activity data has been greatly facilitated by the increasing amount of applications and devices that encourage users to measure their activity with the primary goal of health improvement. These devices range from mobile applications taking advantage of smartphone sensors to dedicated fitness trackers presented as modern watches and bracelets. Apart from the analytical insights about the data obtained through classic data visualizations, it is also possible to visualize the information through physical objects also known as activity sculptures. It has been shown that activity sculptures have a positive influence in users making them feel rewarded for their active lifestyle. To further study the process of visualizing activity information into sculptures a web-based activity sculpture creator was developed. This tool takes advantage of modern web technologies and offers a platform in which users can import their data and allows them to experiment creating variations of an activity sculpture which can also be exported for 3D printing. For the development of the configurator current product customization platforms were analyzed for gathering best practices in user interface and interaction design. In order for users to have a sculpture with a high degree of data mapping variability, 4 different sculpture prototypes were developed. For the validation of the configurator an online version was released and a user study was performed. User feedback showed that the prototype was easy to operate and that the obtained sculptures were appealing and meaningful to them."
         },
         {
           "titel": "Sculpture Prototypes",
@@ -53,7 +53,7 @@
               "sculptures/ActivityVase.jpg"
             ]
           },
-          "copy": "The activity sculpture and the configurator are strongly interconnected as depending of the sculpture design, the sculpture will influence the quantity of controls to be taken into consideration for the design of the configurator. This traduces in users having greater or lesser freedom for manipulating the the sculpture.  In order to provide users with a sculpture that is not only appealing but also offers them a high degree of customization, several prototypes were developed. Each sculpture prototype explores different metaphors for visualizing the highest number of activity variables while maintaining an inviting and appealing form that stimulates users to self reflection and interaction with the sculpture. <br> The activity vase was chosen for further development as it provided great variable representation flexibility and its abstract form was suitable to target a wide range of users."
+          "copy": "The activity sculpture and the configurator are strongly interconnected as depending of the sculpture design, the sculpture will influence the quantity of controls to be taken into consideration for the design of the configurator. This traduces in users having greater or lesser freedom for manipulating the sculpture.  In order to provide users with a sculpture that is not only appealing but also offers them a high degree of customization, several prototypes were developed. Each sculpture prototype explores different metaphors for visualizing the highest number of activity variables while maintaining an inviting and appealing form that stimulates users to self reflection and interaction with the sculpture. <br> The activity vase was chosen for further development as it provided great variable representation flexibility and its abstract form was suitable to target a wide range of users."
         },
         {
           "titel": "Configurator Prototypes",
@@ -79,7 +79,7 @@
               "sculptures/configurator-ui2.png"
             ]
           },
-          "copy": "The configurator was coded completely in JavaScript utilizing the MEAN stack, that is Node.js, Express and MongoDB for the backend and Angular for the fronted. For real time visualization of the sculpture Threejs was utilized. This project is a demonstration of the capabilities of current web technologies that allow the development of fully functional data visualization systems that offer integration with other web services for data interchange and support real time interactive 3D visualization."
+          "copy": "The configurator was coded completely in JavaScript utilizing the MEAN stack, composed of Node.js, Express and MongoDB for the backend and Angular for the fronted. For real time visualization of the sculpture Threejs was utilized. This project is a demonstration of the capabilities of current web technologies that allow the development of fully functional data visualization systems that offer integration with other web services for data interchange and support real time interactive 3D visualization."
         },
         {
           "titel": "User Study",
@@ -90,7 +90,7 @@
               "sculptures/eye-tracking_heatmap.jpg"
             ]
           },
-          "copy": "In order to test the implemented functionality and interaction concepts in the web configurator for guiding users in the visualization and customization process in an enjoyable yet efficient way, a user study was developed. The user study was comprised of a thinking aloud usability test with a small group of participants and an online test both including a questionnaire. During the user study a tracking application was used to generate a heat map from click events, presenting the areas clicked frequently. <br>The user study showed that it seems web configurators are not as common as thought, but users are willing to experiment and the customization of products remains interesting for most users. The web configurator performed very well as users found it to be ease to operate and also easy to learn. All controls performed well and the labels were also understood by users. Interestingly users spend more time experimenting with different combinations of variables mapped to the sculpture than customizing the geometry. The activity sculpture was also perceived as aesthetically appealing and users seem to have a neutral opinion towards the level of representation abstraction used in the sculpture."
+          "copy": "In order to test the implemented functionality and interaction concepts in the web configurator for guiding users in the visualization and customization process in an enjoyable yet efficient way, a user study was developed. The user study was comprised of a thinking aloud usability test with a small group of participants and an online test both including a questionnaire. During the user study a tracking application was used to generate a heat map from click events, presenting the areas clicked frequently. <br>The user study showed that it seems web configurators are not as common as thought, but users are willing to experiment and the customization of products remains interesting for most users. The web configurator performed very well as users found it to be easy to operate and also easy to learn. All controls performed well and the labels were also understood by users. Interestingly users spend more time experimenting with different combinations of variables mapped to the sculpture than customizing the geometry. The activity sculpture was also perceived as aesthetically appealing and users seem to have a neutral opinion towards the level of representation abstraction used in the sculpture."
         },
         {
           "titel": "Outlook",
@@ -104,7 +104,7 @@
               "sculptures/smallers.jpg"
             ]
           },
-          "copy": "The activity sculpture configurator apart from representing the conclusion of my studies was a really fun project to work on. I had the privilege to work with a great tutor in my faculty who gave me a lot of freedom in the project. Working with cutting edge technologies was challenging and rewarding as it really stretched my skills as a developer having to code for a variety of tasks from backend to parametric design functionality. Performing user studies on a platform I ideated was exciting as it allowed me to discover how users interact with concepts that might be logical for me but not for them. Enjoy the renders of the activity sculptures generated by the configurator."
+          "copy": "The activity sculpture configurator apart from representing the conclusion of my studies was a really fun project to work on. I had the privilege to work with a great tutor in my faculty who gave me a lot of freedom in the project. Working with cutting edge technologies was challenging and rewarding as it really stretched my skills as a developer having to code for a variety of tasks from backend to parametric design functionality. Performing user studies was exciting as it allowed me to discover how users interact with concepts that might be logical for me but not for them. Enjoy the renders of the activity sculptures generated by the configurator."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "gallery": {
             "type": "none"
           },
-          "copy": "GLOSUS is a Munich based social startup who’s main goal of is to provide a sustainability management platform for small and mid-sized companies that can’t afford a whole sustainability division. The GLOSUS platform provides a set of tools to manage and expose all the companies efforts to be environmentally friendly, fair with their own employees and transparent in the payment of their taxes. During my time at the startup I worked as product designer and web developer. My main tasks were help developing prototypes and mockups for the ideated products and to code them for presentations with investors."
+          "copy": "GLOSUS is a Munich based social startup who’s main goal is to provide a sustainability management platform for small and mid-sized companies that can’t afford a whole sustainability division. The GLOSUS platform provides a set of tools to manage and expose all the company’s efforts to be environmentally friendly, fair with their own employees and transparent in the payment of their taxes. During my time at the startup I worked as product designer and web developer. My main tasks were help developing prototypes and mockups for the ideated products and to code them for presentations with investors."
         },
         {
           "titel": "Dashboard Prototypes",
@@ -131,7 +131,7 @@
               "glosus/GLOSUS Backend Prototyp_Profit_5.jpg"
             ]
           },
-          "copy": "The GLOSUS platform is composed by a backend only visible to the company providing functionality to upload and present information about the sustainability of the company in three main areas: planet, persons and profit. These three categories contain a great amount of information that needs to be organized in a meaningful way. The dashboard provides an overview of available data and its evolution over time. Each of the main categories has been marked with a specific color reflected also in the corporate design of GLOSUS. With the help of a variety of widgets and dynamic graphics companies can upload their information in an intuitive and flexible way."
+          "copy": "The GLOSUS platform is composed by a backend only visible to the company providing functionality to upload and present information about the sustainability of the company in three main areas: planet, people and profit. These three categories contain a great amount of information that needs to be organized in a meaningful way. The dashboard provides an overview of available data and its evolution over time. Each of the main categories has been marked with a specific color reflected also in the corporate design of GLOSUS. With the help of a variety of widgets and dynamic graphics, companies can upload their information in an intuitive and flexible way."
         },
         {
           "titel": "Profile and Sustainability-line Prototypes",
@@ -151,7 +151,7 @@
           "gallery": {
             "type": "none"
           },
-          "copy": "My time in GLOSUS gave me an idea of how multifaceted working in a startup can be. It was interesting to get to develop new products from the ground up and to see how through each iteration the product evolves and gets more refined. I loved the whole of process of ideating the platform, designing it and finally coding an MVP for investors. I got the chance to work with a Munich based agency throughout the development process and this proofed to be a very rewarding yet challenging experience as the deadline for delivering the prototype was tight. Technology wise I was more involved in the design and front end side of things but later on I took on the task of expanding the PHP/Symphony app and deploying it to our server."
+          "copy": "My time in GLOSUS gave me an idea of how multifaceted working in a startup can be. It was interesting to get to develop new products from the ground up and to see how through each iteration the product evolves and gets more refined. I loved the whole process of ideating the platform, designing it and finally coding an MVP for investors. I got the chance to work with a Munich based agency throughout the development process and this proved to be a very rewarding yet challenging experience as the deadline for delivering the prototype was tight. Technology wise I was more involved in the design and front end side of things but later on I took on the task of expanding the PHP/Symphony app and deploying it to our server."
         }
       ]
     },
@@ -167,22 +167,7 @@
               "drivedeck/DriveDeck-App.jpg"
             ]
           },
-          "copy": "During my studies in Media Engineering I had the opportunity to work in Deggendorf based startup Inatronic GmbH & Co. KG. The company’s main product is a driving analytics app that provides car enthusiasts a wide range of information by utilizing GPS, gyro and accelerometer sensors. Through an OBD bluetooth dongle the app serves an even bigger set of data as it communicates directly with onboard car devices. <br> I first started working as an Android developer intern supporting the team in the development of the Drivedeck app. Among my tasks was the development of the main screen, encapsulating sensor functionality into libraries for easy access in the overall app, design a variety of icons and test the app’s performance in different devices."
-        },
-        {
-          "titel": "empty",
-          "type": "",
-          "gallery": {
-            "type": "strip small-col-5",
-            "fotos": [
-              "drivedeck/gdrive_logo.png",
-              "drivedeck/fueldrive_logo.png",
-              "drivedeck/powerdrive_logo.png",
-              "drivedeck/testdrive_logo.png",
-              "drivedeck/trackdrive_logo.png"
-            ]
-          },
-          "copy": "Working as an intern gave me first insight into the software development world. Working at Intronic was a very rewarding time as I worked with a small team of passionate developers from whom I was able to learn a lot. The startup setting of the company allowed me to be gain responsibility of parts of the software quickly and encouraged me to not only do software development but also speak my mind and propose solutions on design and usability problems we were facing."
+          "copy": "During my studies in Media Engineering I had the opportunity to work in Deggendorf based startup Inatronic GmbH & Co. KG. The company’s main product is a driving analytics app that provides car enthusiasts a wide range of information by utilizing GPS, gyro and accelerometer sensors. Through an OBD bluetooth dongle the app serves an even bigger set of data as it communicates directly with onboard car devices. <br> I first started working as an Android developer intern supporting the team in the development of the Drivedeck app. Among my tasks were the development of the main screen, encapsulating sensor functionality into libraries for easy access in the overall app, design a variety of icons and test the app’s performance in different devices."
         },
         {
           "titel": "OBD Simulator",
@@ -195,7 +180,22 @@
               "drivedeck/Simulator3.png"
             ]
           },
-          "copy": "After finishing my internship I was invited to write my bachelor thesis in the company. The thesis subject was “Development and Implementation of an Android Based OBD Simulator”. Because the Drivedeck app communicates with a bluetooth OBD dongle for reading data from the car’s onboard computers the application required extensive testing on real cars as every car manufacturer has slightly different configurations. In order to cut the time and work on the testing an OBD simulator device was needed for fast and easy testing. <br>For my bachelor thesis I designed and developed an android app that provided the data for the drivedeck application. The setup for using the simulator consisted on a box with two OBD dongles. One dongle was paired to a smartphone running the Drivedeck app and the other dongle was paired to another device running the simulator app. The simulator allowed developers to setup three different onboard computers with around 200 parameters and change their value in real time. Developers are also able to import csv files and the simulator will read the data from the file and transmit it to the Drivedeck if specific behaviors are needed to be simulated. "
+          "copy": "After finishing my internship I was invited to write my bachelor thesis in the company. The thesis subject was “Development and Implementation of an Android Based OBD Simulator”. Because the Drivedeck app communicates with a bluetooth OBD dongle for reading data from the car’s onboard computers the application required extensive testing on real cars as every car manufacturer has slightly different configurations. In order to cut the time and work on the testing an OBD simulator device was needed for fast and easy testing. <br>For my bachelor thesis I designed and developed an android app that provided the data for the Drivedeck application. The setup for using the simulator consisted on a box with two connected OBD dongles. One dongle was paired to a smartphone running the Drivedeck app and the other dongle was paired to another device running the simulator app. The simulator allows developers to setup three different onboard computers with around 200 parameters and change their value in real time. Developers are also able to import csv files and the simulator will read the data from the file and transmit it to the Drivedeck if specific behaviors are needed to be simulated."
+        },
+        {
+          "titel": "Outlook",
+          "type": "",
+          "gallery": {
+            "type": "strip small-col-5",
+            "fotos": [
+              "drivedeck/gdrive_logo.png",
+              "drivedeck/fueldrive_logo.png",
+              "drivedeck/powerdrive_logo.png",
+              "drivedeck/testdrive_logo.png",
+              "drivedeck/trackdrive_logo.png"
+            ]
+          },
+          "copy": "Working as an intern gave me first insight into the software development world it was a very rewarding time as I worked with a small team of passionate developers from whom I was able to learn a lot. The startup setting of the company allowed me to gain responsibility of parts of the software quickly and encouraged me to not only do software development but also speak my mind and propose solutions on design and usability problems we were facing."
         },
         {
           "titel": "empty",
@@ -228,7 +228,7 @@
               "rolic/rolic_2.jpg"
             ]
           },
-          "copy": "In our team we brainstormed for different kitchen devices that could be rethought and finally opted for a relabel induction cooking top. The main motivation for ROLIC is to provide small apartments a cooking top that who’s size can be changed dynamically saving space in the kitchen. The ROLIC cooking top consists of a panel from which the induction top can be rolled out for cooking. The surface of the cooking top is made out a flexible material composed of several smaller induction heaters. When a pan is placed on top of the surface it the induction heaters detect where the pan is placed and a ring of LED lights will light the pan. Instantly a button will pop out of the panel allowing the user to adjust the heat. After the user is finished cooking he can roll the surface back into the panel, clearing the used space for other purposes."
+          "copy": "In our team we brainstormed for different kitchen devices that could be reinvented and we finally opted for a rollable induction cooking top. The main motivation for ROLIC is to provide small apartments a cooking top who’s size can be changed dynamically saving space in the kitchen. The ROLIC cooking top consists of a panel from which the induction top can be rolled out for cooking. The surface of the cooking top is made out of a flexible material composed of several smaller induction heaters. When a pan is placed on top of the surface, the induction heaters detect where the pan is placed and a ring of LED lights will light the pan. Instantly a button will pop out of the panel allowing the user to adjust the heat. After the user has finished cooking he can roll the surface back into the panel, clearing the used space for other purposes"
         },
         {
           "titel": "Physical Prototyping",
@@ -242,7 +242,7 @@
               "rolic/rolic_makingof_4.jpg"
             ]
           },
-          "copy": "During the project my main task was implementing the interaction concepts to the prototype the industrial design colleagues constructed. The whole project was developed using a Teensy 3.2 board, which is pretty similar to Arduino boards but with extended functionality and greater specs. For the prototype we only had two active areas with several RGB LEDs and pressure sensors. When a top was placed over these areas the pressure sensor registered the pressure and if it went over a defined threshold it activated an LED light animation indicating the user the top detected the pan. At the moment of placing the pan on the panel a servo motor brought a knob up with several LEDs and a potentiometer for dialing the heat."
+          "copy": "During the project my main task was implementing the interaction concepts to the prototype the industrial design colleagues constructed. The whole project was developed using a Teensy 3.2 board, which is pretty similar to Arduino boards but with extended functionality and greater specs. For the prototype we only had two active areas with several RGB LEDs and pressure sensors. When a top was placed over these areas the pressure sensor registered the pressure and if it went over a defined threshold it activated an LED light animation indicating the user the top detected the pan. At the moment of placing the pan on the panel a servo motor brought a knob up with several LEDs and a potentiometer for dialing the heat.<br> I enjoyed the experience of working in a multidisciplinary team, learning how other people approach problem solving and getting my hands dirty soldering and in general moving away from the screen was a refreshing experience."
         }
       ]
     }
