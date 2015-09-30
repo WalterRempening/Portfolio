@@ -455,6 +455,29 @@ nav ul li .idle {
     font-size: 0.7em;
   }
 }
+span.pdf {
+  width: 100px;
+  margin: 0px 0px 0px 60px;
+}
+span.pdf a {
+  color: #797979;
+  border-bottom: 2px #797979 solid;
+  font-size: 0.9em;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
+span.pdf a:hover {
+  color: #d2d2d2;
+  border-color: #d2d2d2;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
 .grid {
   margin: 40px auto 10px;
   max-width: 1000px;
@@ -1117,6 +1140,46 @@ figure button {
 .imprint a:hover {
   color: #d2d2d2;
   cursor: pointer;
+}
+.print-pdf {
+  height: 550px;
+  -webkit-transform: skew(0deg, -6deg);
+  -moz-transform: skew(0deg, -6deg);
+  -o-transform: skew(0deg, -6deg);
+  -ms-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+}
+.pdf-titel {
+  margin-bottom: -10px;
+  color: #fff;
+}
+.personal-det {
+  color: #fff;
+}
+.personal-det .principal {
+  margin-top: 50px;
+}
+.personal-det h2 {
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+.personal-det span {
+  font-size: 1.1em;
+  margin: 10px 5px;
+}
+.personal-det span.year {
+  font-size: 0.9em;
+  text-align: right;
+  margin-right: 15px;
+}
+.personal-det.black {
+  color: #0c0c0c;
+}
+.personal-det.black h2 {
+  color: #1f1f1f;
+}
+.personal-det.black span.year {
+  color: #797979;
 }
 .footer {
   height: 80px;

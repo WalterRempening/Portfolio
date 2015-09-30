@@ -1,6 +1,7 @@
 <div class="container" layout="column" ng-controller="CvController">
   <div class="intro" layout="row" layout-sm="column" layout-md="column">
     <img class="profile" src="../../img/profile.jpg"/>
+
     <div class="bio" flex>
       <span class="opener">
         Hola, I'm Walter a mexican german Creative Technologist and UX Engineer based in Munich.
@@ -30,6 +31,8 @@
 
     </div>
   </div>
+  <span class="pdf"><a target="_self" ng-href={{file}}>CV as PDF</a></span>
+
   <div class="cv" layout="column">
     <div ng-repeat="category in content.keys">
       <h2>{{category}}</h2>

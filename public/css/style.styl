@@ -395,6 +395,22 @@ nav
         padding-right 8px
         font-size 0.7em
 
+span.pdf
+  width 100px
+  margin 0px 0px 0px 60px
+
+  a
+    color $wp-copy-text
+    border-bottom 2px $wp-copy-text solid
+    font-size 0.9em
+    transition color 0.2s
+
+    &:hover
+      color $wp-hover-gray
+      border-color $wp-hover-gray
+      transition color 0.2s
+
+
 .grid
   margin: 40px auto 10px;
   max-width: 1000px;
@@ -869,6 +885,44 @@ figure button
     &:hover
       color $wp-hover-gray
       cursor pointer
+
+.print-pdf
+  height 550px
+  transform skew(0deg, -6deg)
+
+.pdf-titel
+  margin-bottom -10px
+  color #fff
+
+.personal-det
+
+  .principal
+    margin-top 50px
+
+  color #fff
+
+  h2
+    font-size 1.4em
+    margin-bottom 5px
+
+  span
+    font-size 1.1em
+    margin 10px 5px
+
+  span.year
+    font-size 0.9em
+    text-align right
+    margin-right 15px
+
+
+.personal-det.black
+  color #0c0c0c
+
+  h2
+    color #1f1f1f
+
+  span.year
+    color $wp-copy-text
 
 
 .footer

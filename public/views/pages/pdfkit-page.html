@@ -1,0 +1,47 @@
+<div class="home-bg print-pdf"></div>
+<div class="container" layout="column" ng-controller="CvController">
+  <h1 class="pdf-titel">Curriculum Vitae</h1>
+  <div class="intro" layout="row" >
+    <img class="profile" src="../../img/Profile.png"/>
+
+    <div class="bio personal-det" flex>
+      <div layout="column" class="principal">
+        <div layout="row">
+          <span class="year" flex="20">Name:</span>
+          <span flex="60">Walter Rempening Diaz</span>
+        </div>
+        <div layout="row">
+          <span class="year" flex="20">Birthplace:</span>
+          <span flex="60">Cuauhtemoc, Mexico</span>
+        </div>
+        <div layout="row">
+          <span class="year" flex="20">Nationality:</span>
+          <span flex="60">German and Mexican</span>
+        </div>
+        <div layout="row">
+          <span class="year" flex="20">Mobile:</span>
+          <span flex="60">+49 176-84268825</span>
+        </div>
+        <div layout="row">
+          <span class="year" flex="20">Address:</span>
+          <span flex="60">Eichendorffstr. 49<br>
+          85521 Ottobrunn</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="personal-det black" layout="column">
+    <div ng-repeat="category in content.keys">
+      <h2>{{category}}</h2>
+
+      <div layout="row" ng-repeat="step in content[category]">
+        <span class="year" flex="20">{{step.time}}</span>
+        <span flex="60">{{step.titel}}
+        <br/>
+        {{step.content}}</span>
+      </div>
+
+    </div>
+  </div>
+</div>

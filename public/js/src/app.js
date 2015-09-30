@@ -76,6 +76,9 @@ app.config(
           templateUrl: '../../views/pages/contact-partial.html',
           data: { location: "contact" }
         } );
-
-
+        //.state( 'pdfkit', {
+        //  url: '/pdfkit',
+        //  templateUrl: '../../views/pages/pdfkit-page.html',
+        //  data: { location: "pdfkit" }
+        //} );
     } ] );
