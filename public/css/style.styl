@@ -1,6 +1,6 @@
 @import nib
 @import '../js/libs/angular-material/angular-material.min.css'
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,900italic,900,100italic)
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,100|Roboto+Slab:700,400')
 
 //-----------  Color Scheme  ---------------
 $wp-black = #00000
@@ -30,6 +30,8 @@ $tall = 1040px
 first-letter-capital()
   text-transform uppercase
   font-size 3.8em
+  font-weight 700
+  font-family 'Roboto Slab'
   float left
   margin 0px 16px 10px 0px
   line-height 50px
@@ -50,7 +52,7 @@ html
   background-color $wp-bg
 
 body
-  font-family Futura, 'Roboto', sans-serif
+  font-family 'Roboto', sans-serif
   background-color transparent
 
 a
@@ -135,7 +137,7 @@ nav
         margin-bottom 5px
         display inline-block
         transition color 0.5s
-        font-weight 100
+        font-weight 400
 
         &:hover
           color $wp-bg
@@ -196,7 +198,7 @@ nav
     font-size 2.3em
     text-align center
     font-style italic
-    font-weight 100
+    font-weight 300
     width 70%
     margin 0 auto 70px
 
@@ -262,6 +264,9 @@ nav
         margin 8px auto
         width 200px
 
+        a
+          font-weight 400
+
         &:hover
           cursor pointer
 
@@ -276,6 +281,7 @@ nav
           a
             color #000000
             transition color 0.2s ease-in-out
+            
 
       .blop
         display inline-block
@@ -296,7 +302,7 @@ nav
 
       a
         color $wp-copy-text
-        font-family 'Futura'
+        font-family 'Roboto'
         font-weight 100
         text-transform uppercase
         position: relative
@@ -333,6 +339,7 @@ nav
 
     span.opener
       font-weight 800
+      font-family 'Roboto Slab'
       font-size 1.3em
       display inline-block
       width 70%
@@ -355,7 +362,8 @@ nav
     p
       color $wp-copy-text
       padding-right: 20px
-      text-align justify
+      font-weight 300
+      //text-align justify
 
       @media (max-width: $small)
         padding-right 0px
@@ -369,7 +377,8 @@ nav
       margin-left 0px
 
     h2
-      font-weight 100
+      font-weight 400
+      font-family 'Roboto Slab'
 
     div
       padding 5px 20px
@@ -386,7 +395,7 @@ nav
 
     .year
       font-style: italic
-      font-weight 800
+      font-weight 400
       color #A5A4A4
       text-align right
       padding-right 30px
@@ -499,11 +508,12 @@ span.pdf
 
         h2
           font-size 2.4em
+          font-family 'Roboto Slab'
           margin 15px 0 5px 0
           color $wp-bg
           text-transform uppercase
           letter-spacing 1px
-          font-weight 300
+          font-weight 800
           transform translateY(50px)
           transition transform 0.3s
 
@@ -527,6 +537,7 @@ span.pdf
         p
           margin-top 5px
           font-size 1.2em
+          font-weight 400
 
           @media (max-width: $small)
             font-size 0.6em
@@ -685,8 +696,9 @@ figure button
       background-position-x 50%
 
   .work-titel
+    font-family 'Roboto Slab'
     font-size 4.5em
-    font-weight 800
+    font-weight 700
     text-align center
     width 100%
     color $wp-bg
@@ -766,7 +778,6 @@ figure button
     width 70%
     margin 0 auto
     padding 0px 0px 40px
-    text-align justify
     color #3A3A3A
 
     @media (max-width: $small)
@@ -777,7 +788,8 @@ figure button
     display none
   h2.sub-titel
     font-size 2.3em
-    font-weight 800
+    font-weight 700
+    font-family 'Roboto Slab'
     text-transform uppercase
     width 80%
     margin 60px auto 10px
@@ -820,6 +832,8 @@ figure button
     h1
       font-size 3em
       text-align center
+      font-family 'Roboto Slab'
+
 
       @media (max-width: $small)
         font-size 1.5em
@@ -839,8 +853,9 @@ figure button
 
     span.medium
       font-size 1.2em
+      font-family 'Roboto Slab'
       color #9C9C9C
-      font-weight 800
+      font-weight 700
       text-align center
       display block
       width 20%
@@ -878,6 +893,9 @@ figure button
 .imprint
   width 80%
   margin 0px auto
+
+  h2
+    font-family 'Roboto Slab'
 
   a
     color #000
