@@ -1001,6 +1001,7 @@ figure button {
   margin: 0 auto;
   padding: 0px 0px 40px;
   color: #3a3a3a;
+  line-height: 1.5em;
 }
 @media (max-width: 500px) {
   .detail .copy {
