@@ -460,6 +460,11 @@ nav ul li .idle {
     font-size: 0.7em;
   }
 }
+@-moz-document url-prefix() {
+  .container img.profile {
+    height: 200px;
+  }
+}
 span.pdf {
   width: 100px;
   margin: 0px 0px 0px 60px;
@@ -1022,6 +1027,7 @@ figure button {
   text-align: center;
   position: relative;
   top: -30px;
+  line-height: 0.9em;
 }
 @media (max-width: 500px) {
   .detail h2.sub-titel {
